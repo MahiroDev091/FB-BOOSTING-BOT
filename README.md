@@ -1,7 +1,7 @@
 # 🚀 FB BOOSTING BOT
 FACEBOOK MESSENGER BOT TO SEND REACTION AND FOLLOW VIA PAGE USING FB ACCOUNTS 
 
-- Only work on termux (NO UPTIME)
+- Only work on termux (BCOZ NO UPTIME)
 - Obfuscated for some reason.
 - Use many facebook account with page.
 - Fixed some part i guess.
@@ -39,5 +39,5 @@ catfact - facts about cats. 😸
 # 📰 HOW TO SETUP
 
 ```python
-git clone https://github.com/MahiroDev091/FB-BOOSTING-BOT; pip install ua_generator; pip install fbchat; python3 bot.py
+git clone https://github.com/MahiroDev091/FB-BOOSTING-BOT; pip install ua_generator; pip install fbchat; python3 bot.pyc
 ```
