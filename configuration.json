@@ -1,0 +1,16 @@
+{
+  "CONFIG": {
+    "BOT_INFO": {
+      "EMAIL": "EMAIL/PHONE NUMBER/ID",
+      "PASSWORD": "PASSWORD"
+    },
+    "PAGE_ACCOUNTS": {
+      "ACCOUNTS": [
+        "EMAIL|PASS",
+        "EMAIL|PASS"
+      ]
+    }
+  }
+}
+
+
