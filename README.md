@@ -2,7 +2,7 @@
 FACEBOOK MESSENGER BOT TO SEND REACTION AND FOLLOW VIA PAGE USING FB ACCOUNTS 
 
 - Only work on termux (BCOZ NO UPTIME)
-- Obfuscated for some reason.
+- Obfuscated for some reason. [CLOSED]
 - Use many facebook account with page.
 - Performance improved.
 - Version 1.0.2 [NEW VERSION]
