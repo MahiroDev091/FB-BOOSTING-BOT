@@ -51,3 +51,6 @@ git clone https://github.com/MahiroDev091/FB-BOOSTING-BOT; cd FB-BOOSTING-BOT; p
 ```python
 NOTE: If any chance that the bot failed to connect, try using fresh fb account instead.
 ```
+```python
+Modifying the code is allowed but owning all rights to the code is prohibited, Changing Credit doesn't make you "pro" in programming :v
+```
