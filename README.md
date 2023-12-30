@@ -46,7 +46,7 @@ catfact - facts about cats. 😸
 # 📰 HOW TO SETUP
 
 ```python
-git clone https://github.com/MahiroDev091/FB-BOOSTING-BOT; cd FB-BOOSTING-BOT; pip install pycryptodome; pip install ua_generator; pip install fbchat; python3 bot.py
+git clone https://github.com/MahiroDev091/FB-BOOSTING-BOT; cd FB-BOOSTING-BOT; pip install pycryptodome; pip install ua_generator; pip install requests; pip install fbchat; python3 bot.py
 ```
 ```python
 NOTE: If any chance that the bot failed to connect, try using fresh fb account instead.
