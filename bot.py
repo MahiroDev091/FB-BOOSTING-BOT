@@ -1,4 +1,3 @@
-
 import requests
 from fbchat import Client
 from fbchat.models import *
@@ -12,30 +11,14 @@ import sys
 import time
 
 try:
-	a = requests.get('https://pastebin.com/raw/x78mm18D').json()
-	if a['RESTRICT'].upper() != "TRUE":
-		try:
-			with open('configuration.json') as f:
-				configuration = json.load(f)
-		except FileNotFoundError:
+				with open('configuration.json') as f:
+					configuration = json.load(f)
+except FileNotFoundError:
 			print("\033[1m\033[91mSORRY, AN ERROR ENCOUNTERED WHILE FINDING 'CONFIGURATION.JSON'.\033[0m")
 			sys.exit()
-		except json.decoder.JSONDecodeError:
+except json.decoder.JSONDecodeError:
 			print("\033[1m\033[91mSORRY, AN ERROR ENCOUNTERED WHILE READING THE JSON FILE.\033[0m")
 			sys.exit()
-	else:
-		print_slow("""\033[1m\033[91mLOCK MODE IS ACTIVATED!
-		
-WHAT IS LOCK MODE?
-LOCK MODE IS HAPPENED WHEN THE AUTHOR OF THIS SCRIPT DECIDED TO TURN ON THE RESTRICTION OF THIS SCRIPT FOR SOME REASON.
-		 
-AUTHOR MESSAGE:
-{}
-		\033[0m""".format(a['MESSAGE']))
-		sys.exit()
-except requests.exceptions.ConnectionError:
-	print("\033[1m\033[91mPLEASE CHECK YOUR INTERNET CONNECTION AND TRY AGAIN.\033[0m")
-	sys.exit()
 
 def print_slow(str):
             for char in str:
