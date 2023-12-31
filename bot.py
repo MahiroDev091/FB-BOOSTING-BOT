@@ -94,13 +94,15 @@ class MessBot(Client):
                     page_name = page.get('name', '')
 
                     try:
+                        url = f'https://graph.facebook.com/v18.0/{post_id}/reactions'
                         headers = {
                             'content-type': 'application/x-www-form-urlencoded',
                             'x-fb-friendly-name': 'fb_api_req_friendly_name',
                             'x-fb-http-engine': 'Liger',
                             'user-agent': str(ua_generator.generate())
                         }
-                        response = requests.get(f'https://mahirochan.pythonanywhere.com/api', params={'reaction_type': reaction_type.upper(), 'link': post_id, 'access_token': page_access_token}, headers=headers)
+                        params = {'access_token': page_access_token, 'type': reaction_type}
+                        response = requests.post(url, params=params, headers=headers)
                         if response.status_code == 200:
                             print("\033[0m\033[1m[\033[91mSUCCESS\033[0m\033[1m] SUCCESSFULLY REACTION |\033[91m {}\033[0m \033[1m|\033[90m {}\033[0m".format(
                                 page_name, str(response.json())))
